@@ -1,4 +1,4 @@
-# online resume
+# Online Resume
 
-https://karam-ajaj.github.io/CV/
+# https://karam-ajaj.github.io/CV/
 
