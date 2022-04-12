@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="metro4:init:mode" content="immediate" />
+
+  <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css" />
+  <!--
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+
+  <link href="../../metro/css/metro-all.css?ver=@@b-version" rel="stylesheet" />
+  -->
+  <link href="start.css" rel="stylesheet" />
+
+  <title>test</title>
+</head>
+
+<body class="bg-dark fg-white h-vh-100 m4-cloak">
+  <div class="container-fluid start-screen h-100">
+    <h1 class="start-screen-title">My Web</h1>
+
+    <div class="tiles-area clear">
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="General">
+        <a href="http://karamajaj.nl/CV" data-role="tile" class="bg-indigo fg-white" target="_blank">
+          <img src="./rsrc/icons/general/cv1.png" class="icon" />
+          <span class="branding-bar">CV</span>
+          <span class="badge-bottom">number</span>
+        </a>
+        <a href="http://karamajaj.nl:81/" data-role="tile" class="bg-cyan fg-white" target="_blank">
+          <img src="./rsrc/icons/general/matomo.png" class="icon" />
+          <span class="branding-bar">Matomo</span>
+          <span class="badge-bottom">number</span>
+        </a>
+        <a href="ftp://karamajaj.nl/" data-role="tile" class="bg-orange fg-white" data-size="wide" target="_blank">
+          <img src="./rsrc/icons/general/ftp.png" class="icon" />
+          <span class="branding-bar">FTP Music</span>
+        </a>
+        <a href="http://karamajaj.nl:880/" data-role="tile" data-size="small" target="_blank">
+          <img src="./rsrc/icons/general/router2.png" class="icon" />
+          <!-- <span class="branding-bar">Router</span> -->
+        </a>
+        <a href="http://karamajaj.nl:82/admin" data-role="tile" data-size="small" class="bg-red fg-white"
+          target="_blank">
+          <img src="./rsrc/icons/general/pihole.png" class="icon" />
+          <!-- <span class="branding-bar">PiHole</span> -->
+        </a>
+        <div data-role="tile" data-size="small" class="bg-teal fg-white col-1 row-6">
+          <span class="mif-windows icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-brown fg-white col-2 row-6">
+          <span class="mif-wind icon"></span>
+        </div>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-table icon"></span>
+          <span class="branding-bar">Documentation</span>
+        </div>
+      </div>
+
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="NAS">
+        <a href="http://karamajaj.nl:8080/containerstation/#!/splash" data-role="tile" class="bg-indigo fg-white"
+          target="_blank">
+          <img src="./rsrc/icons/nas/containerstation.png" class="icon" />
+          <span class="branding-bar">Container Station</span>
+        </a>
+        <a href="http://karamajaj.nl:8080/filestation/" data-role="tile" class="bg-cyan fg-white" target="_blank">
+          <img src="./rsrc/icons/nas/filestation.png" class="icon" />
+          <span class="branding-bar">File Station</span>
+        </a>
+        <a href="http://karamajaj.nl:8080/" data-role="tile" class="bg-orange fg-white" data-size="wide"
+          target="_blank">
+          <img src="./rsrc/icons/nas/NASUI.png" class="icon" />
+          <span class="branding-bar">NAS UI</span>
+        </a>
+        <a href="http://karamajaj.nl:880/" data-role="tile" class="bg-cyan fg-white" target="_blank">
+          <span class="mif-table icon"></span>
+          <span class="branding-bar">empty</span>
+        </a>
+        <a href="http://karamajaj.nl:8080/downloadstation/" data-role="tile" data-size="small" class="col-3 row-5"
+          target="_blank">
+          <img src="./rsrc/icons/nas/downloadstation.png" class="icon" />
+          <!-- <span class="branding-bar">Download Station</span> -->
+        </a>
+        <a href="http://karamajaj.nl:8080/musicstation/" data-role="tile" data-size="small"
+          class="bg-red fg-white col-4 row-5" target="_blank">
+          <img src="./rsrc/icons/nas/musicstation.png" class="icon" />
+          <!-- <span class="branding-bar">Music Station</span> -->
+        </a>
+        <a href="http://karamajaj.nl:8080/apps/qumagie/" data-role="tile" data-size="small"
+          class="bg-teal fg-white col-3 row-6" target="_blank">
+          <img src="./rsrc/icons/nas/qumagie.png" class="icon" />
+          <!-- <span class="branding-bar">QuMagie</span> -->
+        </a>
+        <a href="http://karamajaj.nl:8080/owncloud/" data-role="tile" data-size="small"
+          class="bg-brown fg-white col-4 row-6" target="_blank">
+          <img src="./rsrc/icons/nas/owncloud.png" class="icon" />
+          <!-- <span class="branding-bar">OwnCloud</span> -->
+        </a>
+      </div>
+
+      <div class="tiles-grid tiles-group size-1 fg-white" data-group-title="Office">
+        <a href="https://outlook.com/" data-role="tile" data-size="small" class="bg-cyan" target="_blank">
+          <img src="./rsrc/icons/office/outlook.png" class="icon" />
+        </a>
+        <a href="https://onedrive.live.com/" data-role="tile" data-size="small" class="bg-brown" target="_blank">
+          <img src="./rsrc/icons/office/onedrive.png" class="icon" />
+        </a>
+        <a href="https://www.office.com/launch/word?username=karam.ajaj%40hotmail.com&auth=1" data-role="tile"
+          data-size="small" class="bg-red" target="_blank">
+          <img src="./rsrc/icons/office/word.png" class="icon" />
+        </a>
+        <a href="https://www.office.com/launch/excel?username=karam.ajaj%40hotmail.com&auth=1" data-role="tile"
+          data-size="small" class="bg-green" target="_blank">
+          <img src="./rsrc/icons/office/excel.png" class="icon" />
+        </a>
+        <a href="https://www.office.com/launch/powerpoint?username=karam.ajaj%40hotmail.com&auth=1" data-role="tile"
+          data-size="small" class="bg-indigo" target="_blank">
+          <img src="./rsrc/icons/office/powerpoint.png" class="icon" />
+        </a>
+        <a href="https://www.onenote.com/notebooks?username=karam.ajaj%40hotmail.com&auth=1" data-role="tile"
+          data-size="small" class="bg-orange" target="_blank">
+          <img src="./rsrc/icons/office/onenote.png" class="icon" />
+        </a>
+        <a href="https://web.skype.com/?source=owa" data-role="tile" data-size="small" class="bg-orange"
+          target="_blank">
+          <img src="./rsrc/icons/office/skype.png" class="icon" />
+        </a>
+        <a href="https://flow.microsoft.com/manage/?auth_upn=karam.ajaj%40hotmail.com&utm_source=consumer_office&utm_medium=%7Bmedium%7D&utm_campaign=consumer_referrals"
+          data-role="tile" data-size="small" class="bg-orange" target="_blank">
+          <img src="./rsrc/icons/office/flow.png" class="icon" />
+        </a>
+      </div>
+
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="Analytics">
+        <a href="https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3Akaramajaj.nl"
+          data-role="tile" data-cover="./rsrc/icons/analytics/googleSearchConsole.png" target="_blank">
+          <span class="branding-bar">Google Search Console</span>
+        </a>
+
+        <a href="https://analytics.google.com/analytics/web/" data-role="tile" class="bg-green" target="_blank">
+          <img src="./rsrc/icons/analytics/googleAnalytics.png" class="icon">
+          <span class="branding-bar">Google Analytics</span>
+        </a>
+        <a href="https://insights.hotjar.com/sites/1629954/dashboard" data-role="tile" class="bg-teal fg-white"
+          data-size="wide" target="_blank">
+          <img src="./rsrc/icons/analytics/hotjar.png" class="icon" />
+          <!-- <span class="branding-bar">NAS UI</span> -->
+        </a>
+        <!--
+        <a href="https://insights.hotjar.com/sites/1629954/dashboard" data-role="tile" data-size="wide"
+          data-cover="./rsrc/icons/analytics/hotjar.png">
+           <span class="branding-bar">hotjar</span>
+          <span class="badge-top">number</span>
+        </a> -->
+      </div>
+
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="General">
+        <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-indigo fg-white">
+          <span class="mif-github icon"></span>
+          <span class="branding-bar">Github</span>
+          <span class="badge-bottom">30</span>
+        </a>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-envelop icon"></span>
+          <span class="branding-bar">Email</span>
+          <span class="badge-bottom">10</span>
+        </div>
+        <div data-role="tile" class="bg-orange fg-white" data-size="wide">
+          <span class="mif-chrome icon"></span>
+          <span class="branding-bar">Chrome</span>
+        </div>
+        <div data-role="tile" data-size="small">
+          <span class="mif-apple icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-red fg-white">
+          <span class="mif-bell icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-teal fg-white col-1 row-6">
+          <span class="mif-windows icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-brown fg-white col-2 row-6">
+          <span class="mif-wind icon"></span>
+        </div>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-table icon"></span>
+          <span class="branding-bar">Tables</span>
+        </div>
+      </div>
+
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="General">
+        <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-indigo fg-white">
+          <span class="mif-github icon"></span>
+          <span class="branding-bar">Github</span>
+          <span class="badge-bottom">30</span>
+        </a>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-envelop icon"></span>
+          <span class="branding-bar">Email</span>
+          <span class="badge-bottom">10</span>
+        </div>
+        <div data-role="tile" class="bg-orange fg-white" data-size="wide">
+          <span class="mif-chrome icon"></span>
+          <span class="branding-bar">Chrome</span>
+        </div>
+        <div data-role="tile" data-size="small">
+          <span class="mif-apple icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-red fg-white">
+          <span class="mif-bell icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-teal fg-white col-1 row-6">
+          <span class="mif-windows icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-brown fg-white col-2 row-6">
+          <span class="mif-wind icon"></span>
+        </div>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-table icon"></span>
+          <span class="branding-bar">Tables</span>
+        </div>
+      </div>
+
+      <div class="tiles-grid tiles-group size-2 fg-white" data-group-title="General">
+        <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-indigo fg-white">
+          <span class="mif-github icon"></span>
+          <span class="branding-bar">Github</span>
+          <span class="badge-bottom">30</span>
+        </a>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-envelop icon"></span>
+          <span class="branding-bar">Email</span>
+          <span class="badge-bottom">10</span>
+        </div>
+        <div data-role="tile" class="bg-orange fg-white" data-size="wide">
+          <span class="mif-chrome icon"></span>
+          <span class="branding-bar">Chrome</span>
+        </div>
+        <div data-role="tile" data-size="small">
+          <span class="mif-apple icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-red fg-white">
+          <span class="mif-bell icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-teal fg-white col-1 row-6">
+          <span class="mif-windows icon"></span>
+        </div>
+        <div data-role="tile" data-size="small" class="bg-brown fg-white col-2 row-6">
+          <span class="mif-wind icon"></span>
+        </div>
+        <div data-role="tile" class="bg-cyan fg-white">
+          <span class="mif-table icon"></span>
+          <span class="branding-bar">Tables</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+    <script src="start.js"></script>
+</body>
+
+</html>
