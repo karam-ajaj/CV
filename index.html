@@ -42,68 +42,37 @@
     <meta name="twitter:title" content="My resume">
     <meta name="twitter:description" content="private blog">
     <meta name="twitter:image" content="https://cv.karamajaj.nl/img/preview.png">
-
-    <!-- Matomo -->
-	<!--
-    <script>
-        var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setCookieDomain", "*.cv.karamajaj.nl"]);
-        _paq.push(["setDomains", ["*.cv.karamajaj.nl", "*.karamajaj.nl/CV"]]);
-        _paq.push(["enableCrossDomainLinking"]);
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u = "//matomo.karamajaj.nl/";
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setSiteId', '1']);
-            var d = document,
-                g = d.createElement('script'),
-                s = d.getElementsByTagName('script')[0];
-            g.async = true;
-            g.src = u + 'matomo.js';
-            s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-	-->
-    <!-- End Matomo Code -->
     
-    <!-- Matomo Tag Manager -->
-	<!--
-    <script>
-        var _mtm = window._mtm = window._mtm || [];
-        _mtm.push({
-            'mtm.startTime': (new Date().getTime()),
-            'event': 'mtm.Start'
-        });
-        var d = document,
-            g = d.createElement('script'),
-            s = d.getElementsByTagName('script')[0];
-        g.async = true;
-        g.src = 'https://matomo.karamajaj.nl/js/container_P090jM27.js';
-        s.parentNode.insertBefore(g, s);
-    </script>
-	-->
-    <!-- End Matomo Tag Manager -->
 
-    <!-- Hotjar Tracking Code for http://cv.karamajaj.nl -->
-    <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 1629954,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+<!-- Hotjar Tracking Code for https://cv.karamajaj.nl -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1629954,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//monitoring.caprover.karamajaj.nl/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+  <script async defer data-website-id="c9261da7-92c7-4d82-894e-e8caeecbe577" src="https://umami.caprover.karamajaj.nl/umami.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -115,7 +84,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="./css/resume.min.css" rel="stylesheet">
 
     <!-- Custom icon-->
     <link rel="icon" href="img/1.png">
@@ -148,9 +117,11 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#education" style="text-decoration:none">Education</a>
                 </li>
+                <!--
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#skills" style="text-decoration:none">Skills</a>
                 </li>
+                -->
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#Certifications" style="text-decoration:none">Certifications</a>
                 </li>
@@ -169,9 +140,17 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="" style="text-decoration:none"></a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="resrc/karam-ajaj.pdf" target="_blank" style="text-decoration:underline">Download PDF version</a>
-					</li>
+				</li> -->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="" style="text-decoration:underline">
+                    <form class="nav-link js-scroll-trigger" style="text-decoration:underline" action="https://v2.convertapi.com/convert/web/to/pdf?Secret=LJmwd6I8hrUxCw8X&download=attachment" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="Url" value="https://cv.karamajaj.nl" />
+                        <input type="submit" value="Convert to pdf"/>
+                    </form>
+                </a>
+                </li>
 					<!--<li>
 					<script src="https://cdn.convertapi.com/button.js" data-secret="LJmwd6I8hrUxCw8X"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.convertapi.com/button.css">
@@ -207,7 +186,7 @@
                 <h1 class="mb-0">Karam
                     <span class="text-primary">Ajaj</span>
                 </h1>
-                <div class="subheading mb-5"> The Netherlands , Helmond .
+                <div class="subheading mb-5"> Helmond , The Netherlands .
                     <a href="mailto:karam.ajaj@hotmail.com">karam.ajaj@hotmail.com</a>
                 </div>
                 <p class="lead mb-5">A certified professional, enthusiastic about new technologies, eager to learn, and be challenged in order to grow and further improve my IT skills.</br>I possess excellent analytical and communications skills that I utilize to achieve
@@ -371,6 +350,7 @@
                     </div>
                 </div>
             </div>
+<!-- 
         </section>
 
         <hr class="m-0 ">
@@ -381,7 +361,6 @@
                 <h2 class="mb-5 ">Skills</h2>
 
                 <div class="row ">
-                    <!--Grid column-->
                     <div class="col-6 mb-4 ">
 
                         <div class="subheading mb-3 ">Programming Languages</div>
@@ -423,9 +402,8 @@
                         </ul>
 
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
+
                     <div class="col-6 mb-4 ">
                         <div class="subheading mb-3 ">VMWare</div>
                         <ul class="fa-ul mb-5 ">
@@ -448,9 +426,7 @@
                             <li><i class="fa-li fa fa-check "></i> iRDAC</li>
                         </ul>
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
                     <div class="col-6 mb-4 ">
                         <div class="subheading mb-3 ">Windows</div>
                         <ul class="fa-ul mb-5 ">
@@ -469,9 +445,7 @@
                             <li><i class="fa-li fa fa-check "></i> Kaspersky Administration</li>
                         </ul>
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
                     <div class="col-6 mb-4 ">
 
                         <div class="subheading mb-3 ">Storage</div>
@@ -488,11 +462,9 @@
                             <li><i class="fa-li fa fa-check "></i> Labview</li>
                         </ul>
                     </div>
-                    <!--Grid column-->
                 </div>
-                <!--Grid row-->
             </div>
-
+        -->
         </section>
 
         <hr class="m-0 ">
@@ -503,6 +475,7 @@
                 <ul class="fa-ul mb-0 ">
                     <li><i class="fa-li fa fa-bookmark text-dark"></i>VMware:
                         <ul>
+                            <li><a href="resrc/certification/VMware/VMware Certified Professional - VMware Cloud 2023 certificate.pdf" target="_blank" rel="noopener">VMware Certified Professional - VMware Cloud 2023 certificate</a></li>
                             <li><a href="resrc/certification/VMware/VMware Certified Professional - Data Center Virtualization 2022 certificate.pdf" target="_blank" rel="noopener">VMware Certified Professional - Data Center Virtualization 2022</a></li>
                             <li><a href="resrc/certification/VMware/VMware Certified Professional - Network Virtualization 2019 certificate.pdf" target="_blank" rel="noopener">VMware Certified Professional - Network Virtualization 2019</a></li>
                             <li><a href="resrc/certification/VMware/VMware Certified Professional - Desktop and Mobility 2019 certificate.pdf" target="_blank" rel="noopener">VMware Certified Professional - Desktop and Mobility 2019</a></li>
@@ -560,7 +533,9 @@
                     <br>
                     <li><i class="fa-li fa fa-bookmark text-dark"></i>Linux
                         <ul>
-                            <li><a href="resrc/certification/Linux/CS401 Operating Systems.pdf" target="_blank" rel="noopener">CS401 Operating Systems</a></li>
+                            <li><a href="resrc/certification/Linux/LFD116 Software Engineering Basics for Embedded Systems.pdf" target="_blank" rel="noopener">LFD116 - Software Engineering Basics for Embedded Systems</a></li>
+							<li><a href="resrc/certification/Linux/Green Software for Practitioners LFC131.pdf" target="_blank" rel="noopener">LFC131 - Green Software for Practitioners</a></li>
+                            <li><a href="resrc/certification/Linux/CS401 Operating Systems.pdf" target="_blank" rel="noopener">CS401 - Operating Systems</a></li>
                             <li><a href="resrc/certification/Linux/Docker Essentials - A Developer Introduction.pdf" target="_blank" rel="noopener">Docker Essentials - A Developer Introduction</a></li>
                         </ul>
                     </li>
@@ -573,6 +548,7 @@
                     <br>
                     <li><i class="fa-li fa fa-bookmark text-dark"></i>Others:
                         <ul>
+                            <li><a href="resrc/certification/Others/CS107 C++ Programming.pdf" target="_blank" rel="noopener">CS107: C++ Programming</a></li>
                             <li><a href="resrc/certification/Others/Python Basic Certificate.png" target="_blank" rel="noopener">Python Basic Certificate.png</a></li>
                             <li><a href="resrc/certification/Others/Google - Creative Certification Exam.pdf" target="_blank" rel="noopener">Google - Creative Certification Exam</a></li>
                             <li><a href="resrc/certification/Others/UAE Codes Certificate.pdf" target="_blank" rel="noopener">UAE Codes Certificate</a></li>
@@ -598,8 +574,12 @@
                         <li><i class="fa-li fa fa-book text-dark"></i>VMware:
                             <ul>
                                 <li><a href="resrc/courses/VMware/Skyline Advisor Pro Technologist.pdf" target="_blank" rel="noopener">Skyline Advisor Pro Technologist</a></li>
+                                <li><a href="resrc/courses/VMware/Cloud Computing and Operations.pdf" target="_blank" rel="noopener">Cloud Computing and Operations</a></li>
+                                <li><a href="resrc/courses/VMware/SDDC Planning and Design.pdf" target="_blank" rel="noopener">SDDC Planning and Design</a></li>
+                                <li><a href="resrc/courses/VMware/VMware Cloud Onboarding and Setup.pdf" target="_blank" rel="noopener">VMware Cloud Onboarding and Setup</a></li>
+                                <li><a href="resrc/courses/VMware/SDDC Networking.pdf" target="_blank" rel="noopener">SDDC Networking</a></li>
                                 <li><a href="resrc/courses/VMware/VMware Horizon 7.7 Professional Exam Prep.pdf" target="_blank" rel="noopener">VMware Horizon 7.7 Professional Exam Prep</a</li>
-                              <li><a href="resrc/courses/VMware/Horizon 7 Install, Configure, Manage [V7.3] - On Demand Lab.pdf" target="_blank" rel="noopener">Horizon 7 Install, Configure, Manage [V7.3] - On Demand Lab</a></li>
+                                <li><a href="resrc/courses/VMware/Horizon 7 Install, Configure, Manage [V7.3] - On Demand Lab.pdf" target="_blank" rel="noopener">Horizon 7 Install, Configure, Manage [V7.3] - On Demand Lab</a></li>
                                 <li><a href="resrc/courses/VMware/VMware NSX Install, Configure, Manage [V6.4] - On Demand Assessment.pdf" target="_blank" rel="noopener">VMware NSX Install, Configure, Manage [V6.4] - On Demand Assessment</a></li>
                                 <li><a href="resrc/courses/VMware/VMware NSX Install, Configure, Manage [V6.4] - On Demand Content.pdf" target="_blank" rel="noopener">VMware NSX Install, Configure, Manage [V6.4] - On Demand Content</a></li>
                                 <li><a href="resrc/courses/VMware/VMware NSX Install, Configure, Manage [V6.4] - On Demand Evaluation.pdf" target="_blank" rel="noopener">VMware NSX Install, Configure, Manage [V6.4] - On Demand Evaluation</a></li>
@@ -740,7 +720,6 @@
 
         <hr class="m-0 ">
         <section class="resume-section p-3 p-lg-5 d-flex flex-wrap align-items-center" id="Badges">
-            g
             <h2 class="mb-5 ">Badges</h2>
             <div class="w-100 d-flex flex-wrap justify-content-center">
                 <!-- <div class="px-4"> <iframe name="acclaim-badge" allowtransparency="true" frameborder="0" id="embedded-badge-3d340e3e-8ed0-4eed-bb8a-393f05eb2c82" scrolling="no" src="resrc/pics/Oracle Cloud Data Management 2022 Foundations Certified Associate.jpg" style="width: px; height: px;" title="View my verified achievement on Credly."></iframe><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></div>                     
@@ -764,6 +743,81 @@
                     </div>
                 </div>
 -->
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="26f0b329-1834-4262-ba82-65f23a25b6a3" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="a5913489-5c54-4bec-9432-d2fa7d02e399" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="89cd8f91-685e-4281-bb2b-421494401d3e" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="fd911998-1cce-4a79-8dc3-3449f0b6a3fa" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="0569f76f-e67f-4ef6-85a4-3daae6449c7a" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="32b859a5-e15b-479f-b2f4-4254df260dde" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="4c9310a8-9e21-4961-9a09-34fcf1a9e6e2" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="8a106809-b214-4fb2-82ee-b7142a431446" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="456c7ffe-7e0b-4200-8ba8-565dd5bcfc14" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="43bf8843-1457-4b7c-89c2-58a856f7dab5" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+<div class="px-4">
+    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="60029144-8006-4642-8cb7-5bb7d5b94806" data-share-badge-host="https://www.credly.com">
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    </div>
+</div>
+                <div class="px-4">
+                    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="d03503a8-5e74-4448-86a4-f1557dcee462" data-share-badge-host="https://www.credly.com">
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    </div>
+                </div>
+                <div class="px-4">
+                    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="c99ced22-d85d-4fa3-a000-9944c38e6a66" data-share-badge-host="https://www.credly.com">
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    </div>
+                </div>
+				<div class="px-4">
+                    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="cc65d373-0500-4e6b-97a9-35977a64c800" data-share-badge-host="https://www.credly.com">
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    </div>
+                </div>
+                <div class="px-4">
+                    <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="65a11e25-0c53-47c0-9439-79eb05740efd" data-share-badge-host="https://www.credly.com">
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    </div>
+                </div>
                 <div class="px-4">
                     <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="3859fd74-deab-4575-86ed-5add71bb5521" data-share-badge-host="https://www.credly.com">
                         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -819,11 +873,13 @@
                         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                     </div>
                 </div>
+<!-- ITIL deleted badge
                 <div class="px-4">
                     <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="13ea5b24-605e-4e6d-b7ce-481899d8574c" data-share-badge-host="https://www.credly.com">
                         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                     </div>
                 </div>
+-->
                 <div class="px-4">
                     <div class="img-fluid px-4 w-100   " data-iframe-background="" data-iframe-width="" data-iframe-height="270" data-share-badge-id="2b248f1d-83ee-4e71-b15e-fac0699e0f58" data-share-badge-host="https://www.credly.com">
                         <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -882,7 +938,27 @@
             </div>
 
         </section>
-
+<!--
+        <hr class="">
+        <h2 class=" ">Badges</h2>
+        <section class="grid">
+            <div class="box"><img src="resrc/pics/Oracle Cloud Data Management 2022 Foundations Certified Associate.jpg"></div>
+            <div class="box"><img src="resrc/pics/Oracle Cloud Infrastructure 2022 Certified Foundations Associate.jpg"></div>
+            <div class="box"><img src="resrc/pics/badge-foundations.png"></div>
+            <div class="box"><img src="resrc/pics/badge-VCPDM19.png"></div>
+            <div class="box"><img src="resrc/pics/badge-VCPDM19.pnd"></div>
+            <div class="box"><img src="resrc/pics/badge-VCPNV19.png"></div>
+            <div class="box"><img src="resrc/pics/commvault.png"></div>
+            <div class="box"><img src="resrc/pics/DTM.png"></div>
+            <div class="box"><img src="resrc/pics/Fortinet.png"></div>
+            <div class="box"><img src="resrc/pics/NSX.png"></div>
+            <div class="box"><img src="resrc/pics/NV.png"></div>
+            <div class="box"><img src="resrc/pics/zerto.png"></div>
+            <div class="box"><img src="resrc/pics/badge-VCPDM19.png"></div>
+            <div class="box"><img src="resrc/pics/badge-VCPDM19.png"></div>
+            <div class="box"><img src="resrc/pics/networking-on-z-os-foundations.png"></div>
+        </section>
+-->
 
         <hr class="m-0 ">
 
@@ -909,6 +985,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/credly_embed.js "></script>
+
 
 </body>
 
