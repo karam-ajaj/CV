@@ -1,689 +1,867 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://cv.vnerd.nl/</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/karam-ajaj.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20VMware%20Cloud%202023%20certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Data%20Center%20Virtualization%202022%20certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Network%20Virtualization%202019%20certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Desktop%20and%20Mobility%202019%20certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Enterprise%20Engineer%208.0.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Advanced.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Enterprise%20Engineer.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Basic.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Zerto/Zerto%20-%20Associate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%202%20Network%20Security%20Associate%20-%202021.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%201%20Network%20Security%20Associate%20-%202021.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%202%20Network%20Security%20Associate%20-%202020.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%201%20Network%20Security%20Associate%20-%202019.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0101EN%20-%20Introduction%20to%20Cloud.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0103EN%20-%20IBM%20Cloud%20Essentials%20V3.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0150EN%20-%20Building%20Cloud%20Native%20and%20Multicloud%20Applications.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0201EN%20-%20Introduction%20to%20Containers,%20Kubernetes,%20and%20OpenShift%20V2.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/HP/HPE%20ATP%20-%20Hybrid%20IT%20Solutions%20V2.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Oracle/Oracle%20Cloud%20Infrastructure%202022%20Certified%20Foundations%20Associate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Oracle/Oracle%20Cloud%20Data%20Management%202022%20Foundations%20Certified%20Associate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/ITIL/ITILv4%20Foundation%20Certificate%20in%20IT%20Service%20Management.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Linux/LFD116%20Software%20Engineering%20Basics%20for%20Embedded%20Systems.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Linux/Green%20Software%20for%20Practitioners%20LFC131.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Linux/CS401%20Operating%20Systems.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Linux/Docker%20Essentials%20-%20A%20Developer%20Introduction.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Security/Security%20en%20Privacy%20Awareness%20Certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/CS107%20C%2B%2B%20Programming.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/Google%20-%20Creative%20Certification%20Exam.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/UAE%20Codes%20Certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/automatic_control_certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/information-retrieval_certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/thinkingand-logical-fallacies_certificate.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/certification/Others/PrinciplesofScientificResearchWorkshop.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/Skyline%20Advisor%20Pro%20Technologist.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/Cloud%20Computing%20and%20Operations.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/SDDC%20Planning%20and%20Design.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Cloud%20Onboarding%20and%20Setup.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/SDDC%20Networking.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207.7%20Professional%20Exam%20Prep.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/Horizon%207%20Install,%20Configure,%20Manage%20[V7.3]%20-%20On%20Demand%20Lab.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install,%20Configure,%20Manage%20[V6.4]%20-%20On%20Demand%20Assessment.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install,%20Configure,%20Manage%20[V6.4]%20-%20On%20Demand%20Content.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install,%20Configure,%20Manage%20[V6.4]%20-%20On%20Demand%20Evaluation.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install,%20Configure,%20Manage%20[V6.4]%20-%20On%20Demand%20Lab.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vSAN%20Deploy%20and%20Manage%20[V6.6]%20-%20On%20Demand%20Lab.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vSAN%20Deploy%20and%20Manage%20[V6.6]%20-%20On%20Demand.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20-%20Configure%20and%20Manage%20User%20Environment%20Manager.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20-%20Configure%20and%20Manage%20VMware%20Identity%20Manager.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20Fundamentals.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%201.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%202.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%203.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%204.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%205.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%206.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Introducing%20the%20Cloud-based%20and%20On-premises%20Architectures.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Manage%20Windows%20Desktop%20Devices.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Create%20a%20Tenant%20and%20Integrate%20Identity%20Providers.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Certified%20Associate%20-%20Cloud%20%28VCA-Cloud%29.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20-%20Configure%20vSphere%20Storage.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vCloud%20Director%20Essentials.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20-%20Install%20and%20Configure%20vCenter%20and%20ESXi.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207.10%20ESB%20Create%20and%20Configure%20Desktop%20Pools.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20Introduction.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20Configure%20vSphere%20Storage.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Docker%20and%20Kubernetes%20-%20The%20Big%20Picture.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Linux%20Server%20Virtualization.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Learning%20the%20Essentials%20of%20CentOS%20Enterprise%20Linux%207%20Administration.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Raspberry%20Pi%20for%20Developers.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Automating%20Container%20Management%20with%20Ansible.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Raspberry%20Pi%20Home%20Server.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Introduction%20to%20Arduino.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Linux/Getting%20Started%20with%20Docker.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Fortinet/Information%20Security%20Awareness%20-%202021.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Evolution%20of%20Cybersecurity%20-%202021.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Threat%20Landscape.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Evolution%20of%20Cybersecurity%20-%202020.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Threat%20Landscape%20-%202019.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/HP/HPE%20GreenLake%20Services.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/HP/HPE%20ProLiant%20Gen10%20Plus.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/HP/Aruba%20Networking.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/HP/Managing%20Contact%20Information.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/HP/IT%20for%20Business%20Success.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SQL%20Server%20-%20Benchmarking%20and%20Baselining.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Install%20and%20Configure%20Active%20Directory%20Domain%20Services%20in%20Windows%20Server%202016.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Introducing%20System%20Center%202016%20-%20Operations%20Manager%20%28SCOM%29.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Microsoft%20Azure%20IoT%20Developer%20-%20Configure%20Routing%20in%20Azure%20IoT%20Hub.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Azure%20IoT%20Hub%20for%20Developers%20-%20Getting%20Started.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Introduction%20to%20Microsoft%20Cloud%20Services.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Microsoft%20Azure%20Developer%20Creating%20IoT%20Solutions.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Deep%20Learning%20for%20Developer%20Crash%20Course,%20Part%201%20-%20Microsoft%20Azure%20%2B%20AI%20Conference%202019.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Discovering%20Microsoft%20Azure.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SharePoint%20Conference%20&apos;19%20-%20Flowverload%20-%20The%20World&apos;s%20Greatest%20Intro%20to%20Microsoft%20Flow.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SharePoint%20Conference%20&apos;19%20-%20An%20Overview%20of%20Microsoft%20Teams.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Web%20Layouts%20with%20Flexbox%20and%20Bootstrap%204.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20-%20The%20Big%20Picture.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Advanced%20Python.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Core%20Python%20-%20Getting%20Started.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20Quick%20Start%20for%20Linux%20System%20Administrators.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20Best%20Practices%20for%20Code%20Quality.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Managing%20Python%20Packages%20and%20Virtual%20Environments.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Unit%20Testing%20with%20Python.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Full%20Stack%20Web%20Development%20with%20Python%20%28WEB2PY%29.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Introduction%20to%20Bootstrap.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Core%20Python%20Getting%20Started.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20Web%20Fundamentals.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20EE%207%20Fundamentals.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20EE%20-%20The%20Big%20Picture.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20-%20Beyond%20the%20Basics.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Initial%20Access%20with%20Aircrack-ng.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Initial%20Access%20with%20WiFi-Pumpkin.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Penetration%20Testing%20of%20Identity,%20Authentication%20and%20Authorization%20Mechanism.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/People%20Information%20Gathering%20with%20the%20Social%20Engineering%20Toolkit%20%28SET%29.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Assessment%20and%20Management.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20Introduction%20to%20Risk.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20IT%20Risk%20Assessment.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20Risk%20Identification.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Security%20Architecture.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Security%20Management.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Writing%20Penetration%20Testing%20Reports.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Fundamentals.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Input%20Validation.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Insecure%20Error%20Handling.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Session%20Management%20Testing.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Configuration%20and%20Deployment%20Management%20Testing.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Windows%20Server%202012%20High%20Availability%20-%20Hyper-V.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Integrate%20Veeam%20Availability%20Suite%20Components.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Introduce%20and%20Implement%20Veeam%20Backup%20and%20Replication.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Provisioning%20Virtual%20Machines%20on%20Oracle%20Compute%20Cloud.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Oracle%20Autonomous%20Transaction%20Processing%20for%20Developers.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20-%20Communication.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20-%20Metrics%20and%20Measurements.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20Services%20with%20ITIL.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/Getting%20Started%20with%20NetScaler%2012%20Essentials.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
-	<loc>https://cv.vnerd.nl/resrc/courses/Others/SIEM%20Administration%20with%20QRadar.pdf</loc>
-	<lastmod>2023-04-15T01:44:00+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cv.vnerd.nl/</loc>
+    <lastmod>2026-01-01T23:34:27+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/badges.html</loc>
+    <lastmod>2026-01-01T23:27:23+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%201%20Network%20Security%20Associate%20-%202019.pdf</loc>
+    <lastmod>2026-01-01T23:27:23+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%201%20Network%20Security%20Associate%20-%202021.pdf</loc>
+    <lastmod>2026-01-01T23:27:23+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%202%20Network%20Security%20Associate%20-%202020.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Fortinet/NSE%202%20Network%20Security%20Associate%20-%202021.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/HP/HPE%20ATP%20-%20Hybrid%20IT%20Solutions%20V2.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0101EN%20-%20Introduction%20to%20Cloud.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0103EN%20-%20IBM%20Cloud%20Essentials%20V3.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0150EN%20-%20Building%20Cloud%20Native%20and%20Multicloud%20Applications.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/IBM/CC0201EN%20-%20Introduction%20to%20Containers%2C%20Kubernetes%2C%20and%20OpenShift%20V2.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/IBM/CO0101EN%20-%20Docker%20Essentials%253A%20A%20Developer%20Introduction.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/ITIL/ITILv4%20Foundation%20Certificate%20in%20IT%20Service%20Management.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Linux/CS401%20Operating%20Systems.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Linux/Docker%20Essentials%20-%20A%20Developer%20Introduction.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Linux/Green%20Software%20for%20Practitioners%20LFC131.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Linux/LFD116%20Software%20Engineering%20Basics%20for%20Embedded%20Systems.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Oracle/Oracle%20Cloud%20Data%20Management%202022%20Foundations%20Certified%20Associate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Oracle/Oracle%20Cloud%20Infrastructure%202022%20Certified%20Foundations%20Associate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/CS107%20C%2B%2B%20Programming.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/Google%20-%20Creative%20Certification%20Exam.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/PrinciplesofScientificResearchWorkshop.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/UAE%20Codes%20Certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/automatic_control_certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/information-retrieval_certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Others/thinkingand-logical-fallacies_certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Security/Security%20en%20Privacy%20Awareness%20Certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Data%20Center%20Virtualization%202022%20certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Desktop%20and%20Mobility%202019%20certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20Network%20Virtualization%202019%20certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/VMware/VMware%20Certified%20Professional%20-%20VMware%20Cloud%202023%20certificate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Advanced.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Basic.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Enterprise%20Engineer%208.0.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Zerto/ZCP%20Enterprise%20Engineer.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/certification/Zerto/Zerto%20-%20Associate.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Fortinet/Information%20Security%20Awareness%20-%202021.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Evolution%20of%20Cybersecurity%20-%202020.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Evolution%20of%20Cybersecurity%20-%202021.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Threat%20Landscape%20-%202019.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Fortinet/The%20Threat%20Landscape.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/HP/Aruba%20Networking.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/HP/HPE%20GreenLake%20Services.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/HP/HPE%20ProLiant%20Gen10%20Plus.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/HP/IT%20for%20Business%20Success.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/HP/Managing%20Contact%20Information.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Automating%20Container%20Management%20with%20Ansible.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Docker%20and%20Kubernetes%20-%20The%20Big%20Picture.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Getting%20Started%20with%20Docker.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Introduction%20to%20Arduino.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Learning%20the%20Essentials%20of%20CentOS%20Enterprise%20Linux%207%20Administration.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Linux%20Server%20Virtualization.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Raspberry%20Pi%20Home%20Server.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Linux/Raspberry%20Pi%20for%20Developers.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Azure%20IoT%20Hub%20for%20Developers%20-%20Getting%20Started.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Deep%20Learning%20for%20Developer%20Crash%20Course%2C%20Part%201%20-%20Microsoft%20Azure%20%2B%20AI%20Conference%202019.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Discovering%20Microsoft%20Azure.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Install%20and%20Configure%20Active%20Directory%20Domain%20Services%20in%20Windows%20Server%202016.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Introducing%20System%20Center%202016%20-%20Operations%20Manager%20%28SCOM%29.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Introduction%20to%20Microsoft%20Cloud%20Services.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Microsoft%20Azure%20Developer%20Creating%20IoT%20Solutions.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/Microsoft%20Azure%20IoT%20Developer%20-%20Configure%20Routing%20in%20Azure%20IoT%20Hub.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SQL%20Server%20-%20Benchmarking%20and%20Baselining.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SharePoint%20Conference%20%2719%20-%20An%20Overview%20of%20Microsoft%20Teams.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Microsoft/SharePoint%20Conference%20%2719%20-%20Flowverload%20-%20The%20World%27s%20Greatest%20Intro%20to%20Microsoft%20Flow.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Getting%20Started%20with%20NetScaler%2012%20Essentials.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Integrate%20Veeam%20Availability%20Suite%20Components.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Introduce%20and%20Implement%20Veeam%20Backup%20and%20Replication.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20-%20Communication.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20-%20Metrics%20and%20Measurements.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Managing%20IT%20Services%20with%20ITIL.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Oracle%20Autonomous%20Transaction%20Processing%20for%20Developers.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Provisioning%20Virtual%20Machines%20on%20Oracle%20Compute%20Cloud.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/SIEM%20Administration%20with%20QRadar.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Others/Windows%20Server%202012%20High%20Availability%20-%20Hyper-V.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Advanced%20Python.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Core%20Python%20-%20Getting%20Started.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Core%20Python%20Getting%20Started.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Full%20Stack%20Web%20Development%20with%20Python%20%28WEB2PY%29.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Introduction%20to%20Bootstrap.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20EE%20-%20The%20Big%20Picture.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20EE%207%20Fundamentals.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Java%20Web%20Fundamentals.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Managing%20Python%20Packages%20and%20Virtual%20Environments.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20-%20Beyond%20the%20Basics.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20-%20The%20Big%20Picture.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20Best%20Practices%20for%20Code%20Quality.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Python%20Quick%20Start%20for%20Linux%20System%20Administrators.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Unit%20Testing%20with%20Python.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Programming/Web%20Layouts%20with%20Flexbox%20and%20Bootstrap%204.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Initial%20Access%20with%20Aircrack-ng.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Initial%20Access%20with%20WiFi-Pumpkin.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Penetration%20Testing%20of%20Identity%2C%20Authentication%20and%20Authorization%20Mechanism.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/People%20Information%20Gathering%20with%20the%20Social%20Engineering%20Toolkit%20%28SET%29.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Assessment%20and%20Management.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20IT%20Risk%20Assessment.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20Introduction%20to%20Risk.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Risk%20Management%20and%20Information%20Systems%20Control%20Risk%20Identification.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Security%20Architecture.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Security%20Management.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Configuration%20and%20Deployment%20Management%20Testing.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Fundamentals.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Input%20Validation.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Insecure%20Error%20Handling.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Web%20Application%20Penetration%20Testing%20Session%20Management%20Testing.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/Security/Writing%20Penetration%20Testing%20Reports.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/Cloud%20Computing%20and%20Operations.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/Horizon%207%20Install%2C%20Configure%2C%20Manage%20%5BV7.3%5D%20-%20On%20Demand%20Lab.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/SDDC%20Networking.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/SDDC%20Planning%20and%20Design.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/Skyline%20Advisor%20Pro%20Technologist.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Certified%20Associate%20-%20Cloud%20%28VCA-Cloud%29.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Cloud%20Onboarding%20and%20Setup.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20-%20Configure%20and%20Manage%20User%20Environment%20Manager.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20-%20Configure%20and%20Manage%20VMware%20Identity%20Manager.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207%20Fundamentals.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207.10%20ESB%20Create%20and%20Configure%20Desktop%20Pools.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Horizon%207.7%20Professional%20Exam%20Prep.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install%2C%20Configure%2C%20Manage%20%5BV6.4%5D%20-%20On%20Demand%20Assessment.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install%2C%20Configure%2C%20Manage%20%5BV6.4%5D%20-%20On%20Demand%20Content.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install%2C%20Configure%2C%20Manage%20%5BV6.4%5D%20-%20On%20Demand%20Evaluation.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20NSX%20Install%2C%20Configure%2C%20Manage%20%5BV6.4%5D%20-%20On%20Demand%20Lab.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Create%20a%20Tenant%20and%20Integrate%20Identity%20Providers.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Introducing%20the%20Cloud-based%20and%20On-premises%20Architectures.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20Workspace%20ONE%20-%20Manage%20Windows%20Desktop%20Devices.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vCloud%20Director%20Essentials.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vSAN%20Deploy%20and%20Manage%20%5BV6.6%5D%20-%20On%20Demand%20Lab.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/VMware%20vSAN%20Deploy%20and%20Manage%20%5BV6.6%5D%20-%20On%20Demand.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20-%20Configure%20vSphere%20Storage.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20-%20Install%20and%20Configure%20vCenter%20and%20ESXi.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%201.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%202.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%203.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%204.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%205.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%206.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20Configure%20vSphere%20Storage.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/courses/VMware/vSphere%206.5%20Foundations%20Introduction.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj-last-change-PUID.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj-v1.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj-v2.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj-v3.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj-v4.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cv.vnerd.nl/resrc/karam-ajaj.pdf</loc>
+    <lastmod>2026-01-01T23:27:24+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
