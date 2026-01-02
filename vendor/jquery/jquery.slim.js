@@ -5976,7 +5976,17 @@ function remove( elem, selector, keepData ) {
 
 jQuery.extend( {
 	htmlPrefilter: function( html ) {
-		return html.replace( rxhtmlTag, "<$1></$2>" );
+		// Safer prefilter: only expand simple, attribute-less self-closing tags
+		// like "<div/>" into "<div></div>", avoiding regex-based parsing of
+		// arbitrary HTML that can affect attribute values.
+		var singleTag = /^<([a-z][^\/\0>\x20\t\r\n\f]*)\/>$/i;
+
+		if ( singleTag.test( html ) ) {
+			// RegExp.$1 is the captured tag name when singleTag.test(html) is true
+			return html.replace( singleTag, "<" + RegExp.$1 + "></" + RegExp.$1 + ">" );
+		}
+
+		return html;
 	},
 
 	clone: function( elem, dataAndEvents, deepDataAndEvents ) {
