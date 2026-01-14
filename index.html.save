@@ -188,8 +188,9 @@
                 </h1>
                 <div class="subheading mb-5">
                     <a href="mailto:karam.ajaj@hotmail.com">karam.ajaj@hotmail.com</a>
-			<!-- </br>+31 6 53 50 28 65 -->
+		    
                 </div>
+		<div class="subheading mb-5"> +31 6 53 50 28 65</div>
                 <p class="lead mb-5">A certified professional, enthusiastic about new technologies, eager to learn, and be challenged in order to grow and further improve my IT skills.</br>I possess excellent analytical and communications skills that I utilize to achieve
                     my greatest passion in life which is using my technical know-how to benefit other people and organisations.
                     </br>Currently looking for an opportunity to utilise my technical skills in a challenging working environment and become a valuable asset to the organisation that I work for.</p>
@@ -216,7 +217,7 @@
             <div class="w-100">
                 <h2 class="mb-5">Experience</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <di class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
                         <h3 class="mb-0">Cloud Management & Automation Consultant</h3>
                         <div class="subheading mb-3"><a href="https://itq.eu/" target="_blank" rel="noopener">ITQ</a></div>
