@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153845433-1"></script>
@@ -133,28 +133,16 @@
                     <a class="nav-link js-scroll-trigger" href="#about" style="text-decoration:none">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#testimonials" style="text-decoration:none">Testimonials</a>
+                    <a class="nav-link js-scroll-trigger" href="#services" style="text-decoration:none">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#techstack" style="text-decoration:none">Tech Stack</a>
+                    <a class="nav-link js-scroll-trigger" href="#testimonials" style="text-decoration:none">Testimonials</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#experience" style="text-decoration:none">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education" style="text-decoration:none">Education</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#Certifications" style="text-decoration:none">Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Courses" style="text-decoration:none">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Badges" style="text-decoration:none">Badges</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Languages" style="text-decoration:none">Languages</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact" style="text-decoration:none"><strong>Contact</strong></a>
@@ -227,10 +215,11 @@
                 </div>
 
                 <!-- Download PDF Link (subtle) -->
-                <div class="mt-4">
-                    <a href="#" onclick="document.querySelector('form[action*=convertapi]').submit(); return false;" class="text-muted small">
-                        <i class="fas fa-file-pdf"></i> Download Full Resume PDF
+                <div class="mt-4 pt-3 border-top">
+                    <a href="#" onclick="document.querySelector('form[action*=convertapi]').submit(); return false;" class="download-pdf-link">
+                        <i class="fas fa-file-pdf"></i> Download Full Resume (PDF)
                     </a>
+                    <p class="text-muted small mt-2 mb-0">Complete experience, certifications, and credentials</p>
                 </div>
             </div>
         </section>
@@ -350,6 +339,184 @@
                             <i class="fas fa-cogs tech-icon"></i>
                             <h5>DevOps Tools</h5>
                             <p class="small text-muted">Jenkins, Git, CI/CD Pipelines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- Services/Offerings Section -->
+        <section class="resume-section p-3 p-lg-5" id="services">
+            <div class="w-100">
+                <h2 class="mb-5 text-center">How I Can Help Your Business</h2>
+                
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="service-card">
+                            <div class="service-header">
+                                <i class="fas fa-cloud-upload-alt service-icon"></i>
+                                <h3>Cloud Migration</h3>
+                            </div>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Assessment & Planning</li>
+                                <li><i class="fas fa-check-circle"></i> VMware to Cloud Migration</li>
+                                <li><i class="fas fa-check-circle"></i> Hybrid Cloud Setup</li>
+                                <li><i class="fas fa-check-circle"></i> Zero-Downtime Migration</li>
+                                <li><i class="fas fa-check-circle"></i> Post-Migration Optimization</li>
+                            </ul>
+                            <p class="service-result"><strong>Result:</strong> Seamless transition with 60% faster provisioning</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-4">
+                        <div class="service-card featured-service">
+                            <div class="featured-badge">Most Popular</div>
+                            <div class="service-header">
+                                <i class="fas fa-cogs service-icon"></i>
+                                <h3>Automation Implementation</h3>
+                            </div>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> VMware Aria Automation Setup</li>
+                                <li><i class="fas fa-check-circle"></i> Custom Workflow Development</li>
+                                <li><i class="fas fa-check-circle"></i> Infrastructure as Code</li>
+                                <li><i class="fas fa-check-circle"></i> Self-Service Portal Creation</li>
+                                <li><i class="fas fa-check-circle"></i> Team Training & Documentation</li>
+                            </ul>
+                            <p class="service-result"><strong>Result:</strong> Reduce manual tasks by 80%</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-4">
+                        <div class="service-card">
+                            <div class="service-header">
+                                <i class="fas fa-sync-alt service-icon"></i>
+                                <h3>Infrastructure Modernization</h3>
+                            </div>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Environment Assessment</li>
+                                <li><i class="fas fa-check-circle"></i> Architecture Redesign</li>
+                                <li><i class="fas fa-check-circle"></i> Platform Upgrades</li>
+                                <li><i class="fas fa-check-circle"></i> DR/Backup Enhancement</li>
+                                <li><i class="fas fa-check-circle"></i> Ongoing Support Plans</li>
+                            </ul>
+                            <p class="service-result"><strong>Result:</strong> Future-proof infrastructure with 99.9% uptime</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-5">
+                    <p class="lead mb-3">Not sure which service fits your needs?</p>
+                    <a href="#contact" class="btn btn-primary btn-lg js-scroll-trigger">
+                        <i class="fas fa-comments"></i> Let's Discuss Your Project
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- Quick Wins / Value Props Section -->
+        <section class="resume-section p-3 p-lg-5 bg-light" id="value">
+            <div class="w-100">
+                <h2 class="mb-5 text-center">What You Get When You Work With Me</h2>
+                
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="value-card">
+                            <div class="value-icon-wrapper">
+                                <i class="fas fa-rocket value-icon"></i>
+                            </div>
+                            <h4>Rapid Deployment</h4>
+                            <p>Cut infrastructure deployment times from days to hours with battle-tested automation blueprints</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="value-card">
+                            <div class="value-icon-wrapper">
+                                <i class="fas fa-shield-alt value-icon"></i>
+                            </div>
+                            <h4>Enterprise-Grade Security</h4>
+                            <p>Built-in compliance and security best practices from day one, no compromises</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="value-card">
+                            <div class="value-icon-wrapper">
+                                <i class="fas fa-chart-line value-icon"></i>
+                            </div>
+                            <h4>Cost Optimization</h4>
+                            <p>Reduce operational overhead and infrastructure costs through intelligent automation</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="value-card">
+                            <div class="value-icon-wrapper">
+                                <i class="fas fa-graduation-cap value-icon"></i>
+                            </div>
+                            <h4>Knowledge Transfer</h4>
+                            <p>Comprehensive documentation and hands-on training so your team maintains momentum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <p class="lead mb-3">Ready to accelerate your infrastructure?</p>
+                    <a href="#contact" class="btn btn-primary btn-lg js-scroll-trigger">
+                        <i class="fas fa-calendar-check"></i> Book a Free Consultation
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- Trusted By Section -->
+        <section class="resume-section p-3 p-lg-5" id="clients">
+            <div class="w-100">
+                <h2 class="mb-4 text-center">Trusted By Leading Organizations</h2>
+                <p class="text-center text-muted mb-5">Delivering automation excellence across diverse industries</p>
+                
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">ITQ</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">KPN</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">Windesheim</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">Municipality<br>The Hague</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">NN Group</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">Q8</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">Rotterdam<br>Harbour</span>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-logo-box">
+                            <span class="client-name">True BV</span>
                         </div>
                     </div>
                 </div>
@@ -1296,6 +1463,69 @@
 
     <script src="js/badges.json "></script>
 
+    <!-- Floating Contact Button -->
+    <a href="#contact" id="floatingCTA" class="floating-cta js-scroll-trigger" title="Contact Me" style="display:none;">
+        <i class="fas fa-paper-plane"></i>
+    </a>
+
+    <!-- Custom Enhancement Scripts -->
+    <script>
+        // Show/hide floating CTA based on scroll
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+                $('#floatingCTA').fadeIn();
+            } else {
+                $('#floatingCTA').fadeOut();
+            }
+        });
+
+        // Counter animation for stats
+        let counted = false;
+        $(window).scroll(function() {
+            if (!counted && $('.stats-bar').length && isScrolledIntoView($('.stats-bar'))) {
+                counted = true;
+                $('.stat-number').each(function() {
+                    var $this = $(this);
+                    var countTo = $this.text().replace(/[^0-9]/g, '');
+                    if (countTo) {
+                        $({ countNum: 0 }).animate({
+                            countNum: countTo
+                        }, {
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                var text = $this.text();
+                                var suffix = text.replace(/[0-9]/g, '');
+                                $this.text(Math.floor(this.countNum) + suffix);
+                            },
+                            complete: function() {
+                                var text = $this.text();
+                                var suffix = text.replace(/[0-9]/g, '');
+                                $this.text(countTo + suffix);
+                            }
+                        });
+                    }
+                });
+            }
+        });
+
+        function isScrolledIntoView(elem) {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        }
+
+        // Smooth reveal animation for cards
+        $(window).scroll(function() {
+            $('.testimonial-card, .tech-card, .cert-highlight-card').each(function() {
+                if (isScrolledIntoView($(this)) && !$(this).hasClass('revealed')) {
+                    $(this).addClass('revealed');
+                }
+            });
+        });
+    </script>
 
 </body>
 

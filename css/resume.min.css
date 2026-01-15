@@ -454,6 +454,371 @@ details[open] summary {
   margin-bottom: 0.5rem;
 }
 
+/* Floating CTA Button */
+.floating-cta {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #154275 0%, #1a5492 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 20px rgba(21,66,117,0.4);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.floating-cta:hover {
+  background: linear-gradient(135deg, #1a5492 0%, #154275 100%);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 6px 30px rgba(21,66,117,0.6);
+}
+
+.floating-cta i {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Clients Grid */
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.client-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo-box {
+  width: 100%;
+  padding: 2rem 1rem;
+  background: #fff;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  min-height: 100px;
+}
+
+.client-logo-box:hover {
+  border-color: #154275;
+  box-shadow: 0 4px 16px rgba(21,66,117,0.15);
+  transform: translateY(-4px);
+}
+
+.client-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #24292e;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Card Reveal Animation */
+.testimonial-card,
+.tech-card,
+.cert-highlight-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.testimonial-card.revealed,
+.tech-card.revealed,
+.cert-highlight-card.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Improved hover effects */
+.btn {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Badge enhancements */
+.badge-primary {
+  transition: all 0.3s ease;
+}
+
+.badge-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(21,66,117,0.3);
+}
+
+/* Value Propositions Section */
+.value-card {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 10px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(21,66,117,0.15);
+}
+
+.value-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #154275 0%, #1a5492 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(21,66,117,0.3);
+}
+
+.value-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.value-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #24292e;
+}
+
+.value-card p {
+  font-size: 1rem;
+  color: #586069;
+  line-height: 1.6;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Services Section */
+.service-card {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 15px;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #154275 0%, #1a5492 100%);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card:hover {
+  border-color: #154275;
+  box-shadow: 0 10px 30px rgba(21,66,117,0.2);
+  transform: translateY(-10px);
+}
+
+.featured-service {
+  border-color: #154275;
+  border-width: 3px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  background: linear-gradient(135deg, #154275 0%, #1a5492 100%);
+  color: white;
+  padding: 5px 40px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.service-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #154275;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: #24292e;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.service-features li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e9ecef;
+  color: #24292e;
+  font-size: 1rem;
+}
+
+.service-features li:last-child {
+  border-bottom: none;
+}
+
+.service-features i {
+  color: #28a745;
+  margin-right: 0.5rem;
+}
+
+.service-result {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #24292e;
+}
+
+/* PDF Download Link Enhancement */
+.download-pdf-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  color: #154275;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-pdf-link:hover {
+  background: linear-gradient(135deg, #154275 0%, #1a5492 100%);
+  border-color: #154275;
+  color: white;
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+.download-pdf-link i {
+  font-size: 1.2rem;
+}
+
+/* Smooth page transitions */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Performance optimization - GPU acceleration */
+.testimonial-card,
+.tech-card,
+.cert-highlight-card,
+.service-card,
+.value-card,
+.client-logo-box {
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Mobile responsive improvements */
+@media (max-width: 768px) {
+  .floating-cta {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .client-logo-box {
+    padding: 1.5rem 0.5rem;
+    min-height: 80px;
+  }
+  
+  .client-name {
+    font-size: 0.95rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .floating-cta,
+  #sideNav,
+  .cta-buttons,
+  .btn {
+    display: none !important;
+  }
+}
+
 
 
 
