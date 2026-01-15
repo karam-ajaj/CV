@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
+<style>
+    /* Initial load state */
+    body:not(.loaded) {
+        opacity: 0;
+    }
+    body.loaded {
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153845433-1"></script>
@@ -96,6 +106,26 @@
 
 <body id="page-top">
 
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Page Loader -->
+    <div id="pageLoader" aria-label="Loading content" role="status">
+        <div class="loader-inner">
+            <div class="loader-dots">
+                <span></span><span></span><span></span>
+            </div>
+            <p class="loader-text">Preparing your automation story…</p>
+        </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Karam Ajaj</span>
@@ -110,27 +140,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about" style="text-decoration:none">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience" style="text-decoration:none">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education" style="text-decoration:none">Education</a>
-                </li>
-                <!--
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#skills" style="text-decoration:none">Skills</a>
-                </li>
-                -->
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Certifications" style="text-decoration:none">Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Courses" style="text-decoration:none">Courses</a>
-                </li>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about" style="text-decoration:none">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#services" style="text-decoration:none">Services</a>
@@ -148,7 +157,7 @@
                     <a class="nav-link js-scroll-trigger" href="#Certifications" style="text-decoration:none">Certifications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact" style="text-decoration:none"><strong>Contact</strong></a>
+                    <a class="nav-link js-scroll-trigger" href="#contact" style="text-decoration:none">Contact</a>
                 </li>
                 
                 <!-- Hidden PDF Form -->
@@ -167,7 +176,7 @@
                     <span class="text-primary">Ajaj</span>
                 </h1>
                 <div class="hero-tagline mb-4">
-                    <h2 class="hero-subtitle">Cloud & Automation Wizard for Enterprise Infrastructure</h2>
+                    <h2 class="hero-subtitle">Cloud & Automation <span id="typedWords" class="typed-words" data-phrases='["Wizard for Enterprise Infrastructure","Engineer for Regulated Environments","Partner for High-Scale Platforms"]'></span></h2>
                     <p class="hero-pitch">I use VMware Aria Automation, Terraform, and modern DevOps practices to slash deployment times by 60% and eliminate cloud headaches. Let's transform your infrastructure.</p>
                 </div>
                 
@@ -223,6 +232,62 @@
                         <i class="fas fa-file-pdf"></i> Download Full Resume (PDF)
                     </a>
                     <p class="text-muted small mt-2 mb-0">Complete experience, certifications, and credentials</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- Recent Achievements / Updates Section -->
+        <section class="resume-section p-3 p-lg-5 bg-light" id="updates">
+            <div class="w-100">
+                <h2 class="mb-5 text-center">Recent Achievements</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">January 2025</div>
+                            <h4>VMware Aria Automation Expert Engagement</h4>
+                            <p>Successfully deployed automated lab provisioning system for Windesheim University, enabling 500+ students to access on-demand infrastructure.</p>
+                            <span class="timeline-badge">Current</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Q4 2024</div>
+                            <h4>Infrastructure as Code Transformation</h4>
+                            <p>Led Terraform Cloud implementation for Rotterdam Harbour Holding, achieving 70% reduction in provisioning time and established robust DR processes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h4>VMware Cloud Certification</h4>
+                            <p>Earned VMware Certified Professional - VMware Cloud 2023 certification, expanding expertise in multi-cloud environments.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h4>Joined ITQ Consulting</h4>
+                            <p>Became Cloud Management & Automation Consultant at ITQ, delivering enterprise solutions across Netherlands and Europe.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1561,6 +1626,34 @@
 
         <hr class="m-0">
 
+        <!-- Final CTA Banner -->
+        <section class="resume-section p-3 p-lg-5" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%); color: white;">
+            <div class="w-100 text-center">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <i class="fas fa-rocket" style="font-size: 4rem; margin-bottom: 2rem; opacity: 0.9;"></i>
+                    <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1.5rem;">Let's Build Something Extraordinary</h2>
+                    <p class="lead" style="color: rgba(255,255,255,0.95); font-size: 1.2rem; margin-bottom: 2rem;">
+                        Whether you need cloud migration, automation implementation, or infrastructure modernization—I'm here to deliver results that exceed expectations.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap" style="gap: 1rem;">
+                        <a href="#contact" class="btn btn-light btn-lg js-scroll-trigger" style="font-weight: 600; padding: 1rem 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+                            <i class="fas fa-calendar-check"></i> Schedule a Free Consultation
+                        </a>
+                        <a href="mailto:karam.ajaj@hotmail.com" class="btn btn-outline-light btn-lg" style="font-weight: 600; padding: 1rem 2.5rem; border: 2px solid white;">
+                            <i class="fas fa-envelope"></i> Email Me Directly
+                        </a>
+                    </div>
+                    <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.3);">
+                        <p style="margin: 0; opacity: 0.9;">
+                            <i class="fas fa-clock"></i> Typically respond within 24 hours
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
         <!-- Contact Section -->
         <section class="resume-section p-3 p-lg-5" id="contact">
             <div class="w-100">
@@ -1618,7 +1711,62 @@
 
     </div>
 
-
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5>Karam Ajaj</h5>
+                    <p class="text-muted">Cloud & Automation Specialist</p>
+                    <p class="text-muted small">Transforming enterprise infrastructure through intelligent automation and modern cloud solutions.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#services" class="js-scroll-trigger">Services</a></li>
+                        <li><a href="#projects" class="js-scroll-trigger">Projects</a></li>
+                        <li><a href="#skills" class="js-scroll-trigger">Skills</a></li>
+                        <li><a href="#Certifications" class="js-scroll-trigger">Certifications</a></li>
+                        <li><a href="#contact" class="js-scroll-trigger">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Connect</h5>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/karam-ajaj" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/karam-ajaj" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.credly.com/users/karam-ajaj/badges" target="_blank" rel="noopener" aria-label="Credly">
+                            <i class="fas fa-id-badge"></i>
+                        </a>
+                        <a href="mailto:karam.ajaj@hotmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p class="text-muted small mt-3">
+                        <i class="fas fa-map-marker-alt"></i> Netherlands<br>
+                        <i class="fas fa-envelope"></i> karam.ajaj@hotmail.com
+                    </p>
+                </div>
+            </div>
+            <hr style="border-color: rgba(14, 165, 233, 0.2); margin: 2rem 0;">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-muted small mb-0">
+                        © <span id="currentYear"></span> Karam Ajaj. Built with passion for automation and excellence.
+                    </p>
+                    <p class="text-muted small mt-2">
+                        <span class="badge badge-primary">VMware Certified</span>
+                        <span class="badge badge-primary">Cloud Expert</span>
+                        <span class="badge badge-primary">Available for Projects</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 </div>
@@ -1646,13 +1794,44 @@
 
     <!-- Custom Enhancement Scripts -->
     <script>
-        // Show/hide floating CTA based on scroll
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Page load animation
+        $(window).on('load', function() {
+            $('body').addClass('loaded');
+            const loader = document.getElementById('pageLoader');
+            if (loader) {
+                loader.classList.add('fade');
+                setTimeout(function() { loader.remove(); }, 400);
+            }
+            setTimeout(function() {
+                $('.stat-number, .hero-tagline, .cta-buttons').addClass('fade-in-up');
+            }, 300);
+        });
+        // Scroll progress indicator
+        $(window).scroll(function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById('scrollProgress').style.width = scrolled + '%';
+        });
+
+        // Show/hide floating CTA and back to top button based on scroll
         $(window).scroll(function() {
             if ($(this).scrollTop() > 500) {
                 $('#floatingCTA').fadeIn();
+                $('#backToTop').fadeIn();
             } else {
                 $('#floatingCTA').fadeOut();
+                $('#backToTop').fadeOut();
             }
+        });
+
+        // Back to top smooth scroll
+        $('#backToTop').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
         });
 
         // Counter animation for stats
@@ -1693,11 +1872,18 @@
             return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
         }
 
-        // Smooth reveal animation for cards
+        // Smooth reveal animation for cards and headings
         $(window).scroll(function() {
-            $('.testimonial-card, .tech-card, .cert-highlight-card').each(function() {
+            $('.testimonial-card, .tech-card, .cert-highlight-card, .project-card, .value-card, .service-card, .timeline-item').each(function() {
                 if (isScrolledIntoView($(this)) && !$(this).hasClass('revealed')) {
                     $(this).addClass('revealed');
+                }
+            });
+            
+            // Animate section headings
+            $('section h2, section h3, section h4').each(function() {
+                if (isScrolledIntoView($(this)) && !$(this).hasClass('animated-heading')) {
+                    $(this).addClass('animated-heading');
                 }
             });
         });
@@ -1723,6 +1909,40 @@
                 $(this).find('.project-icon').css('transform', 'scale(1) rotate(0deg)');
             }
         );
+
+        // Typewriter effect for hero subtitle
+        (function() {
+            const typedEl = document.getElementById('typedWords');
+            if (!typedEl) return;
+
+            const phrases = typedEl.dataset.phrases ? JSON.parse(typedEl.dataset.phrases) : [];
+            if (!phrases.length) return;
+
+            let phraseIndex = 0;
+            let charIndex = 0;
+            let deleting = false;
+
+            function type() {
+                const phrase = phrases[phraseIndex];
+                typedEl.textContent = deleting ? phrase.substring(0, charIndex--) : phrase.substring(0, charIndex++);
+
+                let delay = deleting ? 45 : 85;
+
+                if (!deleting && charIndex === phrase.length + 1) {
+                    deleting = true;
+                    delay = 1200;
+                } else if (deleting && charIndex === 0) {
+                    deleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                    delay = 250;
+                }
+
+                setTimeout(type, delay);
+            }
+
+            typedEl.setAttribute('aria-live', 'polite');
+            type();
+        })();
     </script>
 
 </body>
