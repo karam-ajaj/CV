@@ -1,671 +1,212 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153845433-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153845433-1');
+</script> -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Karam Ajaj - Cloud & Automation Portfolio</title>
+    <meta name="description" content="IT ICT vmware vdi karam ajaj CV resume windows server esxi vsphere virtualization vcenter docker network security Eindhoven Helmond Netherlands Nederland Damascus fortigate firewall vm horizon vmware backup monitoring system server managementnet work printer linux system administrator networking ubuntu alpine arch OS kubernetes k8s jenkins web developer NAS commvault zerto HTML CSS JS Metro CSS3 Javascript HTML5 UI Library Web Development Framework cloud software engineer, cloud computing engineer, cloud system engineer cloud engineer requirements, cloud engineer qualifications, become a cloud engineer, it cloud engineer, software cloud engineer, engineer cloud, requirements for cloud engineer, cloud engineering software, cloud engineer program, software engineering cloud computing, system cloud engineer, prerequisite for cloud engineer, cloud engineering for beginners, engineering cloud computing, software engineering for the cloud">
+    <meta name="keywords" content="KARAM AJAJ, IT, ICT, vmware, vdi, karam, ajaj, CV, resume, windows server, esxi, vsphere, virtualization, vcenter, docker, network, security, Eindhoven, Helmond, Netherlands, Nederland, Damascus, fortigate, firewall, vm horizon, vmware backup, monitoring system, server managementnet, work printer, linux, linux system administrator, networking, ubuntu, alpine, arch, OS, kubernetes, k8s, jenkins, web developer, NAS, commvault, zerto, HTML, CSS, JS, Metro, CSS3, Javascript, HTML5, UI, Library, Web, Development, Framework">
 
-    <link rel="preconnect" href="https://cdn.credly.com" crossorigin>
-    <link rel="dns-prefetch" href="//cdn.credly.com">
+    <!-- <meta name="description" content="Helmond, Noord-Brabant, Nederland · System Engineer · Acknowledge"> -->
+    <meta name="author" content="Karam Ajaj">
+    <!-- <meta name="keywords" content="Helmond, Noord-Brabant, Nederland · System Engineer · Acknowledge"> -->
+
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="My resume">
+    <meta itemprop="description" content="private blog">
+    <meta itemprop="image" content="https://cv.vnerd.nl/img/preview.png">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="My resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://cv.vnerd.nl/img/preview.png" />
+    <meta property="og:description" content="private blog" />
+    <meta property="og:site_name" content="test" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My resume">
+    <meta name="twitter:description" content="private blog">
+    <meta name="twitter:image" content="https://cv.vnerd.nl/img/preview.png">
+    
+
+<!-- Hotjar Tracking Code for https://cv.vnerd.nl -->
+<!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1629954,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+
+<!-- Matomo -->
+<!-- <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//monitoring.caprover.karamajaj.nl/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script> -->
+  <!-- End Matomo Code -->
+
+  <!-- <script async defer data-website-id="c9261da7-92c7-4d82-894e-e8caeecbe577" src="https://umami.caprover.karamajaj.nl/umami.js"></script> -->
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
+    <!-- <link rel="preload" as="font"> -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="./css/resume.min.css" rel="stylesheet">
 
-    <style>
-        /* Initial load state */
-        body:not(.loaded) {
-            opacity: 0;
-        }
-        body.loaded {
-            opacity: 1;
-            transition: opacity 0.5s ease;
-        }
-    </style>
+    <!-- Custom icon-->
+    <link rel="icon" href="img/1.png">
+
+
+    <title>Karam Ajaj - System Engineer - Resume</title>
+
 </head>
 
 <body id="page-top">
 
-    <div class="scroll-progress-container">
-        <div class="scroll-progress-bar" id="scrollProgress"></div>
-    </div>
-
-    <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top" title="Back to top">
-        <i class="fas fa-arrow-up"></i>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Karam Ajaj</span>
+            <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="karam ajaj CV resume profile picture">
+      </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Page Loader -->
-    <div id="pageLoader" aria-label="Loading content" role="status">
-        <div class="loader-inner">
-            <div class="loader-dots">
-                <span></span><span></span><span></span>
-            </div>
-            <p class="loader-text">Preparing your automation story…</p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about" style="text-decoration:none">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience" style="text-decoration:none">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education" style="text-decoration:none">Education</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills" style="text-decoration:none">Skills</a>
+                </li>
+                -->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Certifications" style="text-decoration:none">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Courses" style="text-decoration:none">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Badges" style="text-decoration:none">Badges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Languages" style="text-decoration:none">Languages</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="" style="text-decoration:none"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="" style="text-decoration:none"></a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="resrc/karam-ajaj.pdf" target="_blank" style="text-decoration:underline">Download PDF version</a>
+				</li> -->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="" style="text-decoration:underline">
+                    <form class="nav-link js-scroll-trigger" style="text-decoration:underline" action="https://v2.convertapi.com/convert/web/to/pdf?Secret=LJmwd6I8hrUxCw8X&download=attachment" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="Url" value="https://cv.vnerd.nl" />
+                        <input type="submit" value="Convert to pdf"/>
+                    </form>
+                </a>
+                </li>
+					<!--<li>
+					<script src="https://cdn.convertapi.com/button.js" data-secret="LJmwd6I8hrUxCw8X"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.convertapi.com/button.css">
+<button class="convertapi-btn" data-filename="karam-ajaj" UserCss="https://cv.karamajaj.nl/css/resume.min.css">Save page as PDF</button>
+                </li>
+				<li class="nav-item">
+				<a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=LJmwd6I8hrUxCw8X&download=attachment&url=' + encodeURI(window.location))" href="#">
+    Save page as PDF1
+</a>
+<a href="https://cv.karamajaj.nl;url=https://www.convertapi.com/labs/pdf-button" class="d-block mb-3" onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=LJmwd6I8hrUxCw8X&amp;download=attachment&amp;url=' + encodeURI(window.location))">Save page as PDF2</a>
+				</li>
+				<li>
+				        <form action="https://v2.convertapi.com/convert/web/to/pdf?Secret=LJmwd6I8hrUxCw8X&download=attachment" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="Url" value="https://cv.karamajaj.nl" />
+            <input type="hidden" name="FileName" value="karam-ajaj" />
+            <input type="hidden" name="UserCss" value="https://cv.karamajaj.nl/css/resume.min.css" />
+            <input type="submit" value="Convert file"/>
+        </form>
+		</li>
+		<li>
+		<script src="https://cdn.convertapi.com/button.js" data-secret="LJmwd6I8hrUxCw8X"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.convertapi.com/button.css">
+<button class="convertapi-btn">Save page as PDF</button>
+</li>-->
+            </ul>
         </div>
-    </div>
+    </nav>
 
     <div class="container-fluid p-0">
 
-                <h2 class="mb-5 ">Courses</h2>
-                <p class="lead mb-4">Selected courses that reinforce automation, cloud, and security expertise.</p>
-
-                <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <h4 class="mb-3"><i class="fa fa-book text-primary mr-2"></i> VMware & SDDC</h4>
-                        <ul class="fa-ul mb-0">
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/VMware/Skyline Advisor Pro Technologist.pdf" target="_blank" rel="noopener">Skyline Advisor Pro Technologist</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/VMware/SDDC Planning and Design.pdf" target="_blank" rel="noopener">SDDC Planning and Design</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/VMware/Horizon 7 Install, Configure, Manage [V7.3] - On Demand Lab.pdf" target="_blank" rel="noopener">Horizon 7 Install, Configure, Manage</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <h4 class="mb-3"><i class="fa fa-book text-primary mr-2"></i> DevOps & Cloud</h4>
-                        <ul class="fa-ul mb-0">
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/Linux/Docker and Kubernetes - The Big Picture.pdf" target="_blank" rel="noopener">Docker and Kubernetes: The Big Picture</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/Linux/Automating Container Management with Ansible.pdf" target="_blank" rel="noopener">Automating Container Management with Ansible</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/VMware/Cloud Computing and Operations.pdf" target="_blank" rel="noopener">Cloud Computing and Operations</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <h4 class="mb-3"><i class="fa fa-book text-primary mr-2"></i> Security & Networking</h4>
-                        <ul class="fa-ul mb-0">
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/Fortinet/Information Security Awareness - 2021.pdf" target="_blank" rel="noopener">Information Security Awareness</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/Fortinet/The Threat Landscape.pdf" target="_blank" rel="noopener">The Threat Landscape</a></li>
-                            <li><i class="fa-li fa fa-check text-primary"></i><a href="resrc/courses/HP/Aruba Networking.pdf" target="_blank" rel="noopener">Aruba Networking</a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Primary CTA Buttons -->
-                <div class="cta-buttons mb-5">
-                    <a href="mailto:karam.ajaj@hotmail.com" class="btn btn-primary btn-lg cta-primary">
-                        <i class="fas fa-paper-plane"></i> Let's Work Together
-                    </a>
-                    <a href="#contact" class="btn btn-outline-primary btn-lg cta-secondary js-scroll-trigger">
-                        <i class="fas fa-calendar-alt"></i> Schedule a Call
-                    </a>
-                </div>
-
-                <!-- Stats Bar -->
-                <div class="stats-bar mb-5">
-                    <div class="stat-item">
-                        <div class="stat-number">25+</div>
-                        <div class="stat-label">Complex Cloud Migrations</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">60%</div>
-                        <div class="stat-label">Faster Deployment Times</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Industry Certifications</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Enterprise Clients</div>
-                    </div>
-                </div>
-
-                <div class="subheading mb-3">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="w-100">
+                <h1 class="mb-0">Karam
+                    <span class="text-primary">Ajaj</span>
+                </h1>
+                <div class="subheading mb-5">
                     <a href="mailto:karam.ajaj@hotmail.com">karam.ajaj@hotmail.com</a>
+		    
                 </div>
-
+		<div class="subheading mb-5"> +31 6 53 50 28 65</div>
+                <p class="lead mb-5">A certified professional, enthusiastic about new technologies, eager to learn, and be challenged in order to grow and further improve my IT skills.</br>I possess excellent analytical and communications skills that I utilize to achieve
+                    my greatest passion in life which is using my technical know-how to benefit other people and organisations.
+                    </br>Currently looking for an opportunity to utilise my technical skills in a challenging working environment and become a valuable asset to the organisation that I work for.</p>
                 <div class="social-icons">
+                    <a href="https://www.facebook.com/karam.ajaj" aria-label="facebook" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                     <a href="https://www.linkedin.com/in/karam-ajaj" aria-label="linkedin" target="_blank" rel="noopener">
                         <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/karam-ajaj" aria-label="github" target="_blank" rel="noopener">
-                        <i class="fab fa-github"></i>
                     </a>
                     <a href="https://www.credly.com/users/karam-ajaj/badges?sort=-state_updated_at&page=1" aria-label="credly" target="_blank" rel="noopener">
                         <i class="fas fa-id-badge"></i>
                     </a>
-                </div>
-
-                <!-- Download PDF Link (subtle) -->
-                <div class="mt-4 pt-3 border-top">
-                    <a href="#" onclick="document.querySelector('form[action*=convertapi]').submit(); return false;" class="download-pdf-link">
-                        <i class="fas fa-file-pdf"></i> Download Full Resume (PDF)
+                    <a href="https://github.com/karam-ajaj" aria-label="github" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
                     </a>
-                    <p class="text-muted small mt-2 mb-0">Complete experience, certifications, and credentials</p>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Recent Achievements / Updates Section -->
-        <section class="resume-section p-3 p-lg-5 bg-light" id="updates">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">Recent Achievements</h2>
-                
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">January 2025</div>
-                            <h4>VMware Aria Automation Expert Engagement</h4>
-                            <p>Successfully deployed automated lab provisioning system for Windesheim University, enabling 500+ students to access on-demand infrastructure.</p>
-                            <span class="timeline-badge">Current</span>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-code-branch"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">Q4 2024</div>
-                            <h4>Infrastructure as Code Transformation</h4>
-                            <p>Led Terraform Cloud implementation for Rotterdam Harbour Holding, achieving 70% reduction in provisioning time and established robust DR processes.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">2023</div>
-                            <h4>VMware Cloud Certification</h4>
-                            <p>Earned VMware Certified Professional - VMware Cloud 2023 certification, expanding expertise in multi-cloud environments.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <div class="timeline-date">2023</div>
-                            <h4>Joined ITQ Consulting</h4>
-                            <p>Became Cloud Management & Automation Consultant at ITQ, delivering enterprise solutions across Netherlands and Europe.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Testimonials Section -->
-        <section class="resume-section p-3 p-lg-5" id="testimonials">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">What Clients Say</h2>
-                <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <div class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Karam streamlined our VMware environment and automated processes that used to take days. His expertise saved us thousands in downtime and dramatically improved our deployment efficiency."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <strong>— Infrastructure Lead</strong><br>
-                                <span class="text-muted">Enterprise Client, Netherlands</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Working with Karam on our Aria Automation project was exceptional. He delivered complex workflows ahead of schedule and provided thorough documentation that empowered our team."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <strong>— IT Manager</strong><br>
-                                <span class="text-muted">Major Service Provider</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"His deep knowledge of cloud automation and ability to translate business requirements into technical solutions made him an invaluable partner for our infrastructure modernization."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <strong>— Cloud Architect</strong><br>
-                                <span class="text-muted">Financial Services</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-4">
-                    <a href="#contact" class="btn btn-primary btn-lg js-scroll-trigger">
-                        <i class="fas fa-comments"></i> Ready to Discuss Your Project?
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Skills Proficiency Section -->
-        <section class="resume-section p-3 p-lg-5 bg-light" id="skills">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">Technical Proficiency</h2>
-                
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <div class="skill-category">
-                            <h4 class="mb-4"><i class="fas fa-cloud-upload-alt mr-2"></i>Cloud & Automation</h4>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>VMware Aria Automation</span>
-                                    <span class="skill-level">Expert</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="95"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Terraform / IaC</span>
-                                    <span class="skill-level">Advanced</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="90"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Ansible Automation</span>
-                                    <span class="skill-level">Advanced</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="85"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>VMware vSphere / ESXi</span>
-                                    <span class="skill-level">Expert</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="95"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 mb-4">
-                        <div class="skill-category">
-                            <h4 class="mb-4"><i class="fas fa-network-wired mr-2"></i>Infrastructure & DevOps</h4>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Docker / Kubernetes</span>
-                                    <span class="skill-level">Advanced</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="85"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>NSX-T Network Virtualization</span>
-                                    <span class="skill-level">Advanced</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="88"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>Azure / AWS Cloud Platforms</span>
-                                    <span class="skill-level">Proficient</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="80"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="skill-header">
-                                    <span>CI/CD Pipelines</span>
-                                    <span class="skill-level">Proficient</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-progress="82"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Featured Projects Section -->
-        <section class="resume-section p-3 p-lg-5" id="projects">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">Featured Projects</h2>
-                <p class="text-center text-muted mb-5">Real-world implementations that delivered measurable results</p>
-                
-                <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <div class="project-card">
-                            <div class="project-icon">
-                                <i class="fas fa-server"></i>
-                            </div>
-                            <h4>Enterprise Migration Platform</h4>
-                            <p class="project-client">Major Telecom Provider (KPN)</p>
-                            <p class="project-description">Led vRA 7 to Aria Automation 8.x migration project, creating automated workflows and SQL-based customer data integration.</p>
-                            <div class="project-tech">
-                                <span class="tech-badge">Aria Automation</span>
-                                <span class="tech-badge">SQL</span>
-                                <span class="tech-badge">vRO</span>
-                            </div>
-                            <div class="project-results">
-                                <i class="fas fa-check-circle"></i> 200+ VMs migrated seamlessly
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mb-4">
-                        <div class="project-card featured-project">
-                            <div class="project-badge">Impact Project</div>
-                            <div class="project-icon">
-                                <i class="fas fa-code-branch"></i>
-                            </div>
-                            <h4>Infrastructure as Code Migration</h4>
-                            <p class="project-client">Rotterdam Harbour Holding</p>
-                            <p class="project-description">Automated entire Azure infrastructure using Terraform Cloud, implemented CI/CD pipelines, and established DR processes.</p>
-                            <div class="project-tech">
-                                <span class="tech-badge">Terraform</span>
-                                <span class="tech-badge">Azure</span>
-                                <span class="tech-badge">CI/CD</span>
-                            </div>
-                            <div class="project-results">
-                                <i class="fas fa-check-circle"></i> 70% reduction in provisioning time
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mb-4">
-                        <div class="project-card">
-                            <div class="project-icon">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-                            <h4>Self-Service Lab Platform</h4>
-                            <p class="project-client">Windesheim University</p>
-                            <p class="project-description">Designed and implemented automated student lab deployment system with custom workflows and logic in Aria Automation.</p>
-                            <div class="project-tech">
-                                <span class="tech-badge">Aria Automation</span>
-                                <span class="tech-badge">vRO</span>
-                                <span class="tech-badge">Workflows</span>
-                            </div>
-                            <div class="project-results">
-                                <i class="fas fa-check-circle"></i> 500+ students empowered
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Tech Stack Section -->
-        <section class="resume-section p-3 p-lg-5" id="techstack">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">Technology Arsenal</h2>
-                <p class="lead text-center mb-5">Enterprise-grade tools I use to transform infrastructure and accelerate delivery</p>
-                
-                <div class="row tech-stack-grid">
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-cloud tech-icon"></i>
-                            <h5>VMware Aria Suite</h5>
-                            <p class="small text-muted">Automation, Operations, Orchestrator</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-code-branch tech-icon"></i>
-                            <h5>Infrastructure as Code</h5>
-                            <p class="small text-muted">Terraform, Ansible, CloudFormation</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fab fa-docker tech-icon"></i>
-                            <h5>Containerization</h5>
-                            <p class="small text-muted">Docker, Kubernetes, K8s</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-network-wired tech-icon"></i>
-                            <h5>VMware Stack</h5>
-                            <p class="small text-muted">vSphere, NSX-T, vSAN, Horizon</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fab fa-microsoft tech-icon"></i>
-                            <h5>Cloud Platforms</h5>
-                            <p class="small text-muted">Azure, AWS, Oracle Cloud</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-shield-alt tech-icon"></i>
-                            <h5>Security</h5>
-                            <p class="small text-muted">Fortinet, NSX Security, Zero Trust</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-database tech-icon"></i>
-                            <h5>Backup & DR</h5>
-                            <p class="small text-muted">Veeam, Commvault, Zerto</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <div class="tech-card">
-                            <i class="fas fa-cogs tech-icon"></i>
-                            <h5>DevOps Tools</h5>
-                            <p class="small text-muted">Jenkins, Git, CI/CD Pipelines</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Services/Offerings Section -->
-        <section class="resume-section p-3 p-lg-5" id="services">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">How I Can Help Your Business</h2>
-                
-                <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <div class="service-card">
-                            <div class="service-header">
-                                <i class="fas fa-cloud-upload-alt service-icon"></i>
-                                <h3>Cloud Migration</h3>
-                            </div>
-                            <ul class="service-features">
-                                <li><i class="fas fa-check-circle"></i> Assessment & Planning</li>
-                                <li><i class="fas fa-check-circle"></i> VMware to Cloud Migration</li>
-                                <li><i class="fas fa-check-circle"></i> Hybrid Cloud Setup</li>
-                                <li><i class="fas fa-check-circle"></i> Zero-Downtime Migration</li>
-                                <li><i class="fas fa-check-circle"></i> Post-Migration Optimization</li>
-                            </ul>
-                            <p class="service-result"><strong>Result:</strong> Seamless transition with 60% faster provisioning</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mb-4">
-                        <div class="service-card featured-service">
-                            <div class="featured-badge">Most Popular</div>
-                            <div class="service-header">
-                                <i class="fas fa-cogs service-icon"></i>
-                                <h3>Automation Implementation</h3>
-                            </div>
-                            <ul class="service-features">
-                                <li><i class="fas fa-check-circle"></i> VMware Aria Automation Setup</li>
-                                <li><i class="fas fa-check-circle"></i> Custom Workflow Development</li>
-                                <li><i class="fas fa-check-circle"></i> Infrastructure as Code</li>
-                                <li><i class="fas fa-check-circle"></i> Self-Service Portal Creation</li>
-                                <li><i class="fas fa-check-circle"></i> Team Training & Documentation</li>
-                            </ul>
-                            <p class="service-result"><strong>Result:</strong> Reduce manual tasks by 80%</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mb-4">
-                        <div class="service-card">
-                            <div class="service-header">
-                                <i class="fas fa-sync-alt service-icon"></i>
-                                <h3>Infrastructure Modernization</h3>
-                            </div>
-                            <ul class="service-features">
-                                <li><i class="fas fa-check-circle"></i> Environment Assessment</li>
-                                <li><i class="fas fa-check-circle"></i> Architecture Redesign</li>
-                                <li><i class="fas fa-check-circle"></i> Platform Upgrades</li>
-                                <li><i class="fas fa-check-circle"></i> DR/Backup Enhancement</li>
-                                <li><i class="fas fa-check-circle"></i> Ongoing Support Plans</li>
-                            </ul>
-                            <p class="service-result"><strong>Result:</strong> Future-proof infrastructure with 99.9% uptime</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-center mt-5">
-                    <p class="lead mb-3">Not sure which service fits your needs?</p>
-                    <a href="#contact" class="btn btn-primary btn-lg js-scroll-trigger">
-                        <i class="fas fa-comments"></i> Let's Discuss Your Project
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Quick Wins / Value Props Section -->
-        <section class="resume-section p-3 p-lg-5 bg-light" id="value">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">What You Get When You Work With Me</h2>
-                
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="value-card">
-                            <div class="value-icon-wrapper">
-                                <i class="fas fa-rocket value-icon"></i>
-                            </div>
-                            <h4>Rapid Deployment</h4>
-                            <p>Cut infrastructure deployment times from days to hours with battle-tested automation blueprints</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="value-card">
-                            <div class="value-icon-wrapper">
-                                <i class="fas fa-shield-alt value-icon"></i>
-                            </div>
-                            <h4>Enterprise-Grade Security</h4>
-                            <p>Built-in compliance and security best practices from day one, no compromises</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="value-card">
-                            <div class="value-icon-wrapper">
-                                <i class="fas fa-chart-line value-icon"></i>
-                            </div>
-                            <h4>Cost Optimization</h4>
-                            <p>Reduce operational overhead and infrastructure costs through intelligent automation</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="value-card">
-                            <div class="value-icon-wrapper">
-                                <i class="fas fa-graduation-cap value-icon"></i>
-                            </div>
-                            <h4>Knowledge Transfer</h4>
-                            <p>Comprehensive documentation and hands-on training so your team maintains momentum</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center mt-4">
-                    <p class="lead mb-3">Ready to accelerate your infrastructure?</p>
-                    <a href="#contact" class="btn btn-primary btn-lg js-scroll-trigger">
-                        <i class="fas fa-calendar-check"></i> Book a Free Consultation
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Trusted By Section -->
-        <section class="resume-section p-3 p-lg-5" id="clients">
-            <div class="w-100">
-                <h2 class="mb-4 text-center">Trusted By Leading Organizations</h2>
-                <p class="text-center text-muted mb-5">Delivering automation excellence across diverse industries</p>
-                
-                <div class="clients-grid">
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">ITQ</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">KPN</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">Windesheim</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">Municipality<br>The Hague</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">NN Group</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">Q8</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">Rotterdam<br>Harbour</span>
-                        </div>
-                    </div>
-                    <div class="client-item">
-                        <div class="client-logo-box">
-                            <span class="client-name">True BV</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -675,83 +216,300 @@
         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
             <div class="w-100">
                 <h2 class="mb-5">Experience</h2>
-                <p class="lead mb-4">Delivering automation and cloud excellence across enterprise environments</p>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <di class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
                         <h3 class="mb-0">Cloud Management & Automation Consultant</h3>
                         <div class="subheading mb-3"><a href="https://itq.eu/" target="_blank" rel="noopener">ITQ</a></div>
-                        <p class="mb-3">Lead consultant for VMware Aria Automation programs, infrastructure modernization, and IaC adoption across regulated and enterprise environments.</p>
-                        <ul class="mb-3">
-                            <li><strong>KPN:</strong> Migrated vRA/vRO 7 to Aria Automation 8.x; built onboarding workflows and SQL-backed customer data flows.</li>
-                            <li><strong>Rotterdam Harbour:</strong> Terraform Cloud migration with CI/CD and DR patterns, cutting provisioning time by 70%.</li>
-                            <li><strong>Windesheim University:</strong> Self-service lab platform enabling 500+ students with automated blueprints.</li>
-                            <li><strong>True BV / Hague Municipality:</strong> Aria Operations dashboards, naming policies, and day-2 actions for governance and visibility.</li>
-                        </ul>
+                        <p>
+                            &#8226 Design and implement end-to-end automation solutions using VMware Aria Automation (formerly vRealize Automation) tailored to client-specific infrastructure and governance needs.</br>
+                            &#8226 Develop infrastructure-as-code modules to manage provisioning, configuration, and lifecycle of virtualized and hybrid cloud environments.</br>
+                            &#8226 Customize workflows and blueprints to integrate external systems and enable dynamic resource allocation, self-service portals, and automated lifecycle management.</br>
+                            &#8226 Collaborate with ITQ architects and client stakeholders to assess existing environments, identify gaps, and propose modernization strategies.</br>
+                            &#8226 Lead cloud migration and infrastructure modernization projects involving vSphere, NSX, vSAN, and other components of the VMware ecosystem.</br>
+                            &#8226 Build and maintain reusable automation libraries, modules, and APIs to streamline operations across multiple customer environments.</br>
+                            &#8226 Provide documentation, knowledge transfer, and enablement workshops to client teams for operational continuity and skill development.
+                            </br>
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Beverwijk, The Netherlands</span></br>
-                        <span class="text-primary">Aug 2023 – Present</span>
+                        <span class="text-primary">August 2023 - Present</span>
                     </div>
                 </div>
 
+
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
-                        <h3 class="mb-0">Datacenter & Cloud Specialist</h3>
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.windesheim.com/" target="_blank" rel="noopener">Windesheim University of Applied Sciences</a></div>
+                        <p>
+                            &#8226 Design and implement the required use cases in VMware Aria Automation and VMware Aria Automation Orchestrator.</br>
+                            &#8226 Create the logic and workflows to deploy students labs based on the customer requirements.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Zwolle, The Netherlands</span></br>
+                        <span class="text-primary">January 2025 - February 2025</span>
+                    </div>
+                </div>
+
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Platform Engineer (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.rhhbv.nl/" target="_blank" rel="noopener">Rotterdam Harbour Holding</a></div>
+                        <p>
+                            &#8226 Automated Azure infrastructure using Terraform, enhancing consistency and reducing manual effort.</br>
+                            &#8226 Deployed and configured Terraform Cloud for CI/CD pipelines and created reusable modules for scalable infrastructure management.</br>
+                            &#8226 Replicated production environments into acceptance and recovery tenants, implementing robust disaster recovery processes.</br>
+                            &#8226 Developed comprehensive documentation for Terraform scripts, recovery procedures, and operational workflows.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Rotterdam, The Netherlands</span></br>
+                        <span class="text-primary">October 2024 - December 2024</span>
+                    </div>
+                </div>
+
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.windesheim.com/" target="_blank" rel="noopener">Windesheim University of Applied Sciences</a></div>
+                        <p>
+                            &#8226 Design and implement the required use cases in VMware Aria Automation and VMware Aria Automation Orchestrator.</br>
+                            &#8226 Create the logic and workflows to deploy students labs based on the customer requirements.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Zwolle, The Netherlands</span></br>
+                        <span class="text-primary">July 2024 - September 2024</span>
+                    </div>
+                </div>
+
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.kpn.com/" target="_blank" rel="noopener">KPN</a></div>
+                        <p>
+                            &#8226 This was the second phase of a migration project from vra/vro version 7 to Aria Automation 8.x </br>
+                            &#8226 This was the deployment phase, and the main purpose of this phase is to deploy the new environments (TST,DTA,PRD) based on the design, and create the necessary workflows/actions for onboarding.</br>
+                            &#8226 Created SQL queries to get the current customers data from an external database so it will be triggered from Aria Automation before starting the migration for customers.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Apeldoorn, The Netherlands</span></br>
+                        <span class="text-primary">March 2024 - June 2024</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://interconnect.nl/" target="_blank" rel="noopener">Interconnect Services B.V.</a></div>
+                        <p>
+                            &#8226 The use case was to deploy the right workload on the pre-defined hosts/clusters using Ansible, and to monitor these placements using Aria Operations.</br>
+                            &#8226 Created Ansible Tower dynamic inventories based on parameters collected from vCenters.</br>
+                            &#8226 Created Playbooks, Templates, Schedules, etc.. to get the current status and automate the resource migration process.</br>
+                            &#8226 Created customized views, reports and dashboards in Aria Operations to have an overview of the resources placement with historical data.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">'s-Hertogenbosch, The Netherlands</span></br>
+                        <span class="text-primary">February 2024 - February 2024</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.denhaag.nl/nl/" target="_blank" rel="noopener">The Hague Municipality</a></div>
+                        <p>
+                            &#8226 Created catalog items and customized forms.</br>
+                            &#8226 Created customization specifications and all the required day 2 actions.</br>
+                            &#8226 Created the required custom naming policies.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">The Hague, The Netherlands</span></br>
+                        <span class="text-primary">February 2024 - March 2024</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Aria Operations Specialist (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.true.nl/" target="_blank" rel="noopener">True B.V.</a></div>
+                        <p>
+                            &#8226 Deploy a green field Aria Operations environment.</br>
+                            &#8226 Created dashboards and customized views based on the customer requested input.</br>
+                            &#8226 Helped the customer with workshops for a better understanding of the product and how it will align with the current in-house tools and how it will be used in the long term.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Amsterdam, The Netherlands</span></br>
+                        <span class="text-primary">December 2023 - January 2024</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.nn-group.com/home.htm" target="_blank" rel="noopener">Nationale Nederlanden (NN Group)</a></div>
+                        <p>
+                            &#8226 Creating catalog items based on the client requirments.</br>
+                            &#8226 Developing actions in Aria Orchestrator.</br>
+                            &#8226 Developing Onboarding workflows (creating NSX-T elements, projects, catalog entities, etc..).
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">The Hague, The Netherlands</span></br>
+                        <span class="text-primary">November 2023 - December 2023</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Aria Operations Specialist (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.q8.com/" target="_blank" rel="noopener">Kuwait Petroleum International (Q8)</a></div>
+                        <p>
+                            &#8226 Evaluate the customer requirements.</br>
+                            &#8226 Install and configure integrations.</br>
+                            &#8226 Create the requested views, dashboards, alerts, reports and policies in Aria Operations.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Kuwait City, Kuwait</span></br>
+                        <span class="text-primary">October 2023 - October 2023</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Automation Consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.kpn.com/" target="_blank" rel="noopener">KPN</a></div>
+                        <p>
+                            &#8226 This was the first phase of a migration project from vra/vro version 7 to Aria Automation 8.x </br>
+                            &#8226 This was the evaluation phase, and the main purpose of this phase is to collect all the information about the environment (components, integrations, etc..) and create a migration plan plus a new design for the new environment.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Apeldoorn, The Netherlands</span></br>
+                        <span class="text-primary">August 2023 - October 2023</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">IT consultant (ITQ)</h3>
+                        <div class="subheading mb-3"><a href="https://www.asml.com/en" target="_blank" rel="noopener">ASML</a></div>
+                        <p>
+                            &#8226 Two week assessment and tests to evaluate the migration from RedHat Enterprise Virtualization to Aria Automation/Orchestration.</br>
+                            &#8226 During this project we implemented the required actions and workflows in Aria Orchestrator and did some performance tests to compare with the current production environment.
+                            </br>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Eindhoven, The Netherlands</span></br>
+                        <span class="text-primary">August 2023 - August 2023</span>
+                    </div>
+                </div>
+
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Datacenter and Cloud Specialist</h3>
                         <div class="subheading mb-3"><a href="https://www.acknowledge.nl/" target="_blank" rel="noopener">Acknowledge</a></div>
-                        <p class="mb-3">Owned lifecycle management and reliability for multi-tenant cloud services and coached engineering teams.</p>
-                        <ul class="mb-3">
-                            <li>Standardized patching, capacity planning, and DR runbooks for core services.</li>
-                            <li>Mentored junior/medior engineers to uplift automation and ops maturity.</li>
-                        </ul>
+                        <p>
+                            &#8226 Aligning architecture choices with the security team, consultants and project engineers.</br>
+                            &#8226 Lifecycle management and capacity management for cloud and data center services.</br>
+                            &#8226 Maintaing the highest level of quality of our customers' infrastructure.</br>
+                            &#8226 Delivering and maintaining relevant commissioning, management guidelines and technical documentation of data center and cloud services.</br>
+                            &#8226 Training and coaching junior and medior data center engineers.
+                            </br>
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Waalre, The Netherlands</span></br>
-                        <span class="text-primary">Sep 2021 – Jul 2023</span>
+                        <span class="text-primary">September 2021 - July 2023</span>
                     </div>
                 </div>
+
 
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
                         <h3 class="mb-0">System Engineer Cloud</h3>
                         <div class="subheading mb-3"><a href="https://www.copaco.com/nl-nl/2tcloud-home" target="_blank" rel="noopener">Copaco 2tCloud</a></div>
-                        <p class="mb-3">Delivered resilient cloud infrastructure, automated routine ops, and supported new product launches.</p>
-                        <ul class="mb-3">
-                            <li>Automated lifecycle of servers, storage, and network hardware using modern config mgmt.</li>
-                            <li>Translated business requirements into scalable infrastructure specifications.</li>
-                        </ul>
+                        <p>
+                            &#8226 Designing, implementing, monitoring and ensuring timely troubleshooting within an advanced IT infrastructure.</br>
+                            &#8226 Managing the lifecycle of servers, storage and network hardware.</br>
+                            &#8226 Automating tasks, using "state of the art" configuration management tools.</br>
+                            &#8226 Developing technical implementations of new products and services at both hardware and software level.</br>
+                            &#8226 Support of the product managers in translating the requirements from the business into specifications for the infrastructure.
+                            </br>
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Eindhoven, The Netherlands</span></br>
-                        <span class="text-primary">Apr 2020 – Sep 2021</span>
+                        <span class="text-primary">April 2020 - September 2021</span>
                     </div>
                 </div>
 
+
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
-                        <h3 class="mb-0">ICT System Administrator</h3>
-                        <div class="subheading mb-3"><a href="https://www.please.nl" target="_blank" rel="noopener">Please Payroll</a></div>
-                        <p class="mb-3">Hardened and automated VMware estates; drove operational documentation and security controls.</p>
-                        <ul class="mb-3">
-                            <li>Delivered reliable upgrades and security baselines for VMware platforms.</li>
-                            <li>Documented architecture and procedures to streamline cross-team handoffs.</li>
-                        </ul>
+                        <h3 class="mb-0">ICT system administrator</h3>
+                        <div class="subheading mb-3"><a href="https://www.please.nl" target="_blank" rel="noopener">Please
+                Payroll</a></div>
+                        <p>
+                            &#8226 Design, develop and maintain automation of VMWARE infrastructure.</br>
+                            &#8226 Design installation, management and routine upgrades of VMWARE infrastructure.</br>
+                            &#8226 Document the architecture and all procedures; prepare guidelines for other teams working with the platform.</br>
+                            &#8226 Monitor performance and maintain systems according to requirements.</br>
+                            &#8226 Ensure security through access controls, backups and firewall.</br>
+                            &#8226 Perform server administration tasks, including user/group administration, security permissions, group policies, research event log warnings and errors, and resource monitoring, ensuring system architecture components work together seamlessly.
+                            </br>
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Helmond, The Netherlands</span></br>
-                        <span class="text-primary">Jul 2018 – Apr 2020</span>
+                        <span class="text-primary">July 2018 - April 2020</span>
                     </div>
                 </div>
 
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
-                        <h3 class="mb-0">Network & System Engineer</h3>
-                        <div class="subheading mb-3"><a href="http://mcc-syria.com/" target="_blank" rel="noopener">Medical Care Company</a></div>
-                        <p class="mb-3">Led network refresh, Java-based system operations, and daily reliability checks.</p>
+                        <h3 class="mb-0">Network and system engineer</h3>
+                        <div class="subheading mb-3"><a href="http://mcc-syria.com/" target="_blank" rel="noopener">Medical Care
+                Company</a></div>
+                        <p>&#8226 Design and develop of the Network Infrastructure (new structure migration).</br>&#8226 Manage system rolls (Java based medical insurance system).</br>&#8226 Resolve problems for network components, cameras, printers, computers
+                            and servers.</br>&#8226 Coordinating the tasks for IT team.</br>&#8226 Perform daily system monitoring, verifying the integrity and availability of all hardware. </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Damascus, Syria</span></br>
-                        <span class="text-primary">Mar 2015 – Oct 2016</span>
+                        <span class="text-primary">March 2015 – October 2016</span>
                     </div>
                 </div>
 
@@ -759,23 +517,13 @@
                     <div class="resume-content">
                         <h3 class="mb-0">IT Specialist</h3>
                         <div class="subheading mb-3"><a href="http://www.technoware-sy.com/" target="_blank" rel="noopener">TechnoWare</a></div>
-                        <p class="mb-0">Maintained 60+ servers and supported 1000+ endpoints across multiple client sites.</p>
+                        <p>&#8226 Printers and pc's hardware and software maintenance.</br>&#8226 Responsible for hardware, OS and network maintenance for (62) servers.</br>&#8226 Manage networks in several organizations (more than 1000 client).
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">Damascus, Syria</span></br>
-                        <span class="text-primary">Feb 2014 – Mar 2015</span>
+                        <span class="text-primary">February 2014 – March 2015</span>
                     </div>
-                </div>
-            </div>
-
-            <!-- CTA after Experience -->
-            <div class="w-100 text-center mt-5 mb-4">
-                <div class="cta-box" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); padding: 3rem; border-radius: 20px; color: white; box-shadow: 0 10px 40px rgba(14, 165, 233, 0.4);">
-                    <h3 style="color: white; margin-bottom: 1rem; font-size: 2rem;">Ready to Transform Your Infrastructure?</h3>
-                    <p class="lead" style="color: rgba(255,255,255,0.95); margin-bottom: 2rem; font-size: 1.2rem;">I've delivered measurable results for 10+ enterprise clients. Your success story could be next.</p>
-                    <a href="#contact" class="btn btn-light btn-lg js-scroll-trigger" style="font-weight: 600; padding: 1rem 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-                        <i class="fas fa-rocket"></i> Start Your Project Today
-                    </a>
                 </div>
             </div>
         </section>
@@ -946,79 +694,7 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center " id="Certifications">
             <div class="w-100 ">
-                <h2 class="mb-5 text-center">Certifications</h2>
-                
-                <!-- Top Certifications Highlight -->
-                <div class="mb-5 text-center">
-                    <h4 class="mb-4" style="color: #154275;">Top 8 Certifications</h4>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">VCP - VMware Cloud</h5>
-                                <p class="text-muted small">2023</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">VCP - DCV</h5>
-                                <p class="text-muted small">Data Center Virtualization 2022</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">VCP - NV</h5>
-                                <p class="text-muted small">Network Virtualization 2019</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">Zerto ZCP</h5>
-                                <p class="text-muted small">Enterprise Engineer 8.0</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">Zerto ZCP Advanced</h5>
-                                <p class="text-muted small">Advanced Certified</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">Fortinet NSE</h5>
-                                <p class="text-muted small">NSE 1 & 2</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">Oracle OCI</h5>
-                                <p class="text-muted small">Foundations 2022</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="cert-highlight-card">
-                                <i class="fas fa-certificate cert-highlight-icon"></i>
-                                <h5 class="mt-3">ITIL v4</h5>
-                                <p class="text-muted small">Foundation</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-3">
-                        <button class="btn btn-outline-primary" onclick="document.getElementById('all-certs').style.display='block'; this.style.display='none';">
-                            <i class="fas fa-chevron-down"></i> View Full Certification List
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Full Certifications List (expandable) -->
-                <div id="all-certs" style="display:none;">
-                    <h4 class="mb-4">Full Certification List</h4>
+                <h2 class="mb-5 ">Certifications</h2>
                 <ul class="fa-ul mb-0 ">
                     <li><i class="fa-li fa fa-bookmark text-dark"></i>VMware:
                         <ul>
@@ -1108,7 +784,6 @@
                     </li>
                     <br>
                 </ul>
-                </div><!-- End all-certs -->
             </div>
         </section>
 
@@ -1327,81 +1002,7 @@
         </section>
 -->
 
-        <hr class="m-0">
-
-        <!-- Final CTA Banner -->
-        <section class="resume-section p-3 p-lg-5" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%); color: white;">
-            <div class="w-100 text-center">
-                <div style="max-width: 800px; margin: 0 auto;">
-                    <i class="fas fa-rocket" style="font-size: 4rem; margin-bottom: 2rem; opacity: 0.9;"></i>
-                    <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1.5rem;">Let's Build Something Extraordinary</h2>
-                    <p class="lead" style="color: rgba(255,255,255,0.95); font-size: 1.2rem; margin-bottom: 2rem;">
-                        Whether you need cloud migration, automation implementation, or infrastructure modernization—I'm here to deliver results that exceed expectations.
-                    </p>
-                    <div class="d-flex justify-content-center gap-3 flex-wrap" style="gap: 1rem;">
-                        <a href="#contact" class="btn btn-light btn-lg js-scroll-trigger" style="font-weight: 600; padding: 1rem 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-                            <i class="fas fa-calendar-check"></i> Schedule a Free Consultation
-                        </a>
-                        <a href="mailto:karam.ajaj@hotmail.com" class="btn btn-outline-light btn-lg" style="font-weight: 600; padding: 1rem 2.5rem; border: 2px solid white;">
-                            <i class="fas fa-envelope"></i> Email Me Directly
-                        </a>
-                    </div>
-                    <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.3);">
-                        <p style="margin: 0; opacity: 0.9;">
-                            <i class="fas fa-clock"></i> Typically respond within 24 hours
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <!-- Contact Section -->
-        <section class="resume-section p-3 p-lg-5" id="contact">
-            <div class="w-100">
-                <h2 class="mb-5 text-center">Let's Build Something Amazing</h2>
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <p class="lead text-center mb-5">Ready to transform your infrastructure? Whether it's cloud automation, infrastructure modernization, or solving complex DevOps challenges—let's talk.</p>
-                        
-                        <div class="contact-options text-center mb-5">
-                            <div class="contact-method mb-4">
-                                <i class="fas fa-envelope fa-2x mb-3 text-primary"></i>
-                                <h5>Email Me</h5>
-                                <a href="mailto:karam.ajaj@hotmail.com" class="btn btn-primary">karam.ajaj@hotmail.com</a>
-                            </div>
-                            <div class="contact-method mb-4">
-                                <i class="fab fa-linkedin fa-2x mb-3 text-primary"></i>
-                                <h5>Connect on LinkedIn</h5>
-                                <a href="https://www.linkedin.com/in/karam-ajaj" target="_blank" rel="noopener" class="btn btn-outline-primary">
-                                    View Profile
-                                </a>
-                            </div>
-                            <div class="contact-method">
-                                <i class="fas fa-calendar-check fa-2x mb-3 text-primary"></i>
-                                <h5>Schedule a Consultation</h5>
-                                <p class="text-muted">Contact me to set up a time to discuss your project needs</p>
-                            </div>
-                        </div>
-
-                        <div class="text-center mt-5">
-                            <h5 class="mb-3">What I Can Help With:</h5>
-                            <div class="d-flex flex-wrap justify-content-center">
-                                <span class="badge badge-primary m-2 p-3">VMware Aria Automation</span>
-                                <span class="badge badge-primary m-2 p-3">Cloud Migration</span>
-                                <span class="badge badge-primary m-2 p-3">Infrastructure as Code</span>
-                                <span class="badge badge-primary m-2 p-3">DevOps Automation</span>
-                                <span class="badge badge-primary m-2 p-3">Hybrid Cloud Solutions</span>
-                                <span class="badge badge-primary m-2 p-3">Disaster Recovery</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
+        <hr class="m-0 ">
 
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center " id="Languages">
             <div class="w-100 ">
@@ -1414,253 +1015,27 @@
 
     </div>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5>Karam Ajaj</h5>
-                    <p class="text-muted">Cloud & Automation Specialist</p>
-                    <p class="text-muted small">Transforming enterprise infrastructure through intelligent automation and modern cloud solutions.</p>
-                </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5>Quick Links</h5>
-                    <ul class="footer-links">
-                        <li><a href="#services" class="js-scroll-trigger">Services</a></li>
-                        <li><a href="#projects" class="js-scroll-trigger">Projects</a></li>
-                        <li><a href="#skills" class="js-scroll-trigger">Skills</a></li>
-                        <li><a href="#Certifications" class="js-scroll-trigger">Certifications</a></li>
-                        <li><a href="#contact" class="js-scroll-trigger">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h5>Connect</h5>
-                    <div class="footer-social">
-                        <a href="https://www.linkedin.com/in/karam-ajaj" target="_blank" rel="noopener" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/karam-ajaj" target="_blank" rel="noopener" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.credly.com/users/karam-ajaj/badges" target="_blank" rel="noopener" aria-label="Credly">
-                            <i class="fas fa-id-badge"></i>
-                        </a>
-                        <a href="mailto:karam.ajaj@hotmail.com" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                    <p class="text-muted small mt-3">
-                        <i class="fas fa-map-marker-alt"></i> Netherlands<br>
-                        <i class="fas fa-envelope"></i> karam.ajaj@hotmail.com
-                    </p>
-                </div>
-            </div>
-            <hr style="border-color: rgba(14, 165, 233, 0.2); margin: 2rem 0;">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="text-muted small mb-0">
-                        © <span id="currentYear"></span> Karam Ajaj. Built with passion for automation and excellence.
-                    </p>
-                    <p class="text-muted small mt-2">
-                        <span class="badge badge-primary">VMware Certified</span>
-                        <span class="badge badge-primary">Cloud Expert</span>
-                        <span class="badge badge-primary">Available for Projects</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
 
 
 </div>
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js" defer></script>
+    <script src="js/resume.min.js "></script>
 
-    <!-- Floating Contact Button -->
-    <a href="#contact" id="floatingCTA" class="floating-cta js-scroll-trigger" title="Contact Me" style="display:none;">
-        <i class="fas fa-paper-plane"></i>
-    </a>
+    <!-- Custom scripts for this template -->
+    <script src="js/credly_embed.js "></script>
 
-    <!-- Custom Enhancement Scripts -->
-    <script>
-        // Set current year in footer
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    <script src="js/badges.json "></script>
 
-        // Page load animation
-        $(window).on('load', function() {
-            $('body').addClass('loaded');
-            const loader = document.getElementById('pageLoader');
-            if (loader) {
-                loader.classList.add('fade');
-                setTimeout(function() { loader.remove(); }, 400);
-            }
-            setTimeout(function() {
-                $('.stat-number, .hero-tagline, .cta-buttons').addClass('fade-in-up');
-            }, 300);
-        });
-        // Scroll progress indicator
-        $(window).scroll(function() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById('scrollProgress').style.width = scrolled + '%';
-        });
-
-        // Show/hide floating CTA and back to top button based on scroll
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 500) {
-                $('#floatingCTA').fadeIn();
-                $('#backToTop').fadeIn();
-            } else {
-                $('#floatingCTA').fadeOut();
-                $('#backToTop').fadeOut();
-            }
-        });
-
-        // Back to top smooth scroll
-        $('#backToTop').click(function() {
-            $('html, body').animate({scrollTop: 0}, 800);
-            return false;
-        });
-
-        // Counter animation for stats
-        let counted = false;
-        $(window).scroll(function() {
-            if (!counted && $('.stats-bar').length && isScrolledIntoView($('.stats-bar'))) {
-                counted = true;
-                $('.stat-number').each(function() {
-                    var $this = $(this);
-                    var countTo = $this.text().replace(/[^0-9]/g, '');
-                    if (countTo) {
-                        $({ countNum: 0 }).animate({
-                            countNum: countTo
-                        }, {
-                            duration: 2000,
-                            easing: 'swing',
-                            step: function() {
-                                var text = $this.text();
-                                var suffix = text.replace(/[0-9]/g, '');
-                                $this.text(Math.floor(this.countNum) + suffix);
-                            },
-                            complete: function() {
-                                var text = $this.text();
-                                var suffix = text.replace(/[0-9]/g, '');
-                                $this.text(countTo + suffix);
-                            }
-                        });
-                    }
-                });
-            }
-        });
-
-        function isScrolledIntoView(elem) {
-            var docViewTop = $(window).scrollTop();
-            var docViewBottom = docViewTop + $(window).height();
-            var elemTop = $(elem).offset().top;
-            var elemBottom = elemTop + $(elem).height();
-            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-        }
-
-        // Smooth reveal animation for cards and headings
-        $(window).scroll(function() {
-            $('.testimonial-card, .tech-card, .cert-highlight-card, .project-card, .value-card, .service-card, .timeline-item').each(function() {
-                if (isScrolledIntoView($(this)) && !$(this).hasClass('revealed')) {
-                    $(this).addClass('revealed');
-                }
-            });
-            
-            // Animate section headings
-            $('section h2, section h3, section h4').each(function() {
-                if (isScrolledIntoView($(this)) && !$(this).hasClass('animated-heading')) {
-                    $(this).addClass('animated-heading');
-                }
-            });
-        });
-
-        // Animate skill bars when scrolled into view
-        let skillsAnimated = false;
-        $(window).scroll(function() {
-            if (!skillsAnimated && $('#skills').length && isScrolledIntoView($('#skills'))) {
-                skillsAnimated = true;
-                $('.skill-progress').each(function() {
-                    var progress = $(this).data('progress');
-                    $(this).css('width', progress + '%');
-                });
-            }
-        });
-
-        // Smooth hover effect for project cards
-        $('.project-card').hover(
-            function() {
-                $(this).find('.project-icon').css('transform', 'scale(1.1) rotate(5deg)');
-            },
-            function() {
-                $(this).find('.project-icon').css('transform', 'scale(1) rotate(0deg)');
-            }
-        );
-
-        // Typewriter effect for hero subtitle
-        (function() {
-            const typedEl = document.getElementById('typedWords');
-            if (!typedEl) return;
-
-            const phrases = typedEl.dataset.phrases ? JSON.parse(typedEl.dataset.phrases) : [];
-            if (!phrases.length) return;
-
-            let phraseIndex = 0;
-            let charIndex = 0;
-            let deleting = false;
-
-            function type() {
-                const phrase = phrases[phraseIndex];
-                typedEl.textContent = deleting ? phrase.substring(0, charIndex--) : phrase.substring(0, charIndex++);
-
-                let delay = deleting ? 45 : 85;
-
-                if (!deleting && charIndex === phrase.length + 1) {
-                    deleting = true;
-                    delay = 1200;
-                } else if (deleting && charIndex === 0) {
-                    deleting = false;
-                    phraseIndex = (phraseIndex + 1) % phrases.length;
-                    delay = 250;
-                }
-
-                setTimeout(type, delay);
-            }
-
-            typedEl.setAttribute('aria-live', 'polite');
-            type();
-        })();
-
-        // Set lazy loading on dynamically injected Credly iframes
-        (function() {
-            const setLazy = () => {
-                document.querySelectorAll('iframe[id^="embedded-badge"]').forEach(el => {
-                    if (!el.hasAttribute('loading')) {
-                        el.setAttribute('loading', 'lazy');
-                    }
-                });
-            };
-
-            const observer = new MutationObserver(setLazy);
-            observer.observe(document.body, { childList: true, subtree: true });
-
-            setLazy();
-
-            // disconnect after badges likely loaded
-            setTimeout(() => observer.disconnect(), 6000);
-        })();
-    </script>
 
 </body>
 
