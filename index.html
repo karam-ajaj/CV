@@ -35,6 +35,11 @@
 </head>
 
 <body id="page-top">
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container" aria-hidden="true">
+        <div id="scrollProgress" class="scroll-progress-bar"></div>
+    </div>
+
     <!-- Page Loader -->
     <div id="pageLoader" aria-label="Loading content" role="status">
         <div class="loader-inner">
@@ -1536,6 +1541,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/credly_embed.js "></script>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top" style="display:none;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating Contact Button -->
+    <a href="#contact" id="floatingCTA" class="floating-cta js-scroll-trigger" title="Contact Me" style="display:none;">
+        <i class="fas fa-paper-plane"></i>
+    </a>
 
     <script src="js/badges.json "></script>
 
