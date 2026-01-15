@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
+<link rel="preconnect" href="https://cdn.credly.com" crossorigin>
+<link rel="dns-prefetch" href="//cdn.credly.com">
 <style>
     /* Initial load state */
     body:not(.loaded) {
@@ -1844,6 +1846,25 @@
 
             typedEl.setAttribute('aria-live', 'polite');
             type();
+        })();
+
+        // Set lazy loading on dynamically injected Credly iframes
+        (function() {
+            const setLazy = () => {
+                document.querySelectorAll('iframe[id^="embedded-badge"]').forEach(el => {
+                    if (!el.hasAttribute('loading')) {
+                        el.setAttribute('loading', 'lazy');
+                    }
+                });
+            };
+
+            const observer = new MutationObserver(setLazy);
+            observer.observe(document.body, { childList: true, subtree: true });
+
+            setLazy();
+
+            // disconnect after badges likely loaded
+            setTimeout(() => observer.disconnect(), 6000);
         })();
     </script>
 
